@@ -1,0 +1,324 @@
+{
+  "carousel": [
+    {
+      "img": "https://wallpaperswide.com/download/ghost_of_yotei_2025_video_game-wallpaper-1920x1080.jpg",
+      "link": "./Gamepage/game.html?game=ghost-of-yotei"
+    },
+    {
+      "img": "https://external-preview.redd.it/the-first-descendant-season-3-update-and-nier-automata-v0-7rRhF41CnRwfY7Due03tP9TkS2I27cy1aS6m8cvLWw8.jpeg?auto=webp&s=f4e6e640ca814a7b428a408f3689c4c91b165729",
+      "link": "./Gamepage/game.html?game=nier-automata"
+    },
+    {
+      "img": "https://wallpaperswide.com/download/avatar_frontiers_of_pandora__from_the_ashes_2025_video_game-wallpaper-1920x1080.jpg",
+      "link": "./Gamepage/game.html?game=avatar-frontiers-of-pandora"
+    },
+    {
+      "img": "https://wallpaperswide.com/download/hollow_knight_silksong_hornet_2025_video_game-wallpaper-1920x1080.jpg",
+      "link": "./Gamepage/game.html?game=hollow-knight-silksong"
+    },
+    {
+      "img": "https://wallpaperswide.com/download/grand_theft_auto_vi_2025_video_game___gta_6-wallpaper-1920x1080.jpg",
+      "link": "./Gamepage/game.html?game=gta-6"
+    }
+  ],
+  "trending": [
+    {
+      "img": "https://assets-prd.ignimgs.com/2025/04/02/nintendoswitch2-hollow-knight-silksong-keyart-square-1743636317910.jpg",
+      "title": "Hollow Knight: Silksong",
+      "description": "The vast interconnected world of Hollow Knight",
+      "link": "./Gamepage/game.html?game=hollow-knight-silksong"
+    },
+    {
+      "img": "https://cdn1.epicgames.com/offer/6e6aa039c73347b885803de65ac5d3db/EGS_GhostofTsushima_SuckerPunchProductions_S2_1200x1600-e23e02c1d70be7b528dba50860f87d39",
+      "title": "Ghost Of Tushima",
+      "description": "A samurai protects Tsushima Island during the first Mongol invasion of Japan",
+      "link": "./Gamepage/game.html?game=ghost-of-tsushima"
+    },
+    {
+      "img": "https://u-mercari-images.mercdn.net/photos/m25554037201_4.jpg",
+      "title": "NieR: Automata",
+      "description": "Androids from the YoRHa military force fighting a proxy",
+      "link": "./Gamepage/game.html?game=nier-automata"
+    }
+  ],
+  "games": [
+    {
+      "title": "GTA Triology Definitive Edition",
+      "img": "https://m.media-amazon.com/images/I/51YjUrY0i2L.jpg",
+      "link": "./Gamepage/game.html?game=gta-trilogy-definitive-edition"
+    },
+    {
+      "title": "Cyberpunk 2077",
+      "img": "https://upload.wikimedia.org/wikipedia/en/9/9f/Cyberpunk_2077_box_art.jpg",
+      "link": "./Gamepage/game.html?game=cyberpunk-2077"
+    },
+    {
+      "title": "Elden Ring",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvvxkQxi2rPJ5DPRF25REQqK_SnHfzjrgibR48ZdMEHGZBwC_KnFpZ4H7rjQT8x7koT10i&s=10",
+      "link": "./Gamepage/game.html?game=elden-ring"
+    },
+    {
+      "title": "Red Dead Redemption 2",
+      "img": "https://assets.vg247.com/current//2018/05/red_dead_redemption_2_cover_art_1.jpg",
+      "link": "./Gamepage/game.html?game=rdr2"
+    },
+    {
+      "title": "The Witcher 3",
+      "img": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0c/Witcher_3_cover_art.jpg/250px-Witcher_3_cover_art.jpg",
+      "link": "./Gamepage/game.html?game=witcher-3"
+    },
+    {
+      "title": "Halo Infinite",
+      "img": "https://imageio.forbes.com/specials-images/imageserve/5f19afb531a9833d9fbc3177/0x0.jpg",
+      "link": "./Gamepage/game.html?game=halo-infinite"
+    },
+    {
+      "title": "Doom Eternal",
+      "img": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9d/Cover_Art_of_Doom_Eternal.png/250px-Cover_Art_of_Doom_Eternal.png",
+      "link": "./Gamepage/game.html?game=doom-eternal"
+    },
+    {
+      "title": "Forza Horizon 5",
+      "img": "https://cdn.theouterhaven.net/wp-content/uploads/2021/08/E4HHJZkXMAswau7.jpg",
+      "link": "./Gamepage/game.html?game=forza-horizon-5"
+    },
+    {
+      "title": "Resident Evil 4 Remake",
+      "img": "https://upload.wikimedia.org/wikipedia/en/d/df/Resident_Evil_4_remake_cover_art.jpg",
+      "link": "./Gamepage/game.html?game=resident-evil-4-remake"
+    },
+    {
+      "title": "Diablo IV",
+      "img": "https://store-images.s-microsoft.com/image/apps.27418.14332794193050832.739974d2-f1c8-499c-8284-db79b2d691a4.1a1b4150-489e-46e8-925a-4d9e78f5b000?w=400&h=600",
+      "link": "./Gamepage/game.html?game=diablo-iv"
+    },
+    {
+      "title": "Starfield",
+      "img": "https://preview.redd.it/its-often-overlooked-but-i-really-love-the-cover-art-for-v0-cv5gqmjzutod1.png?width=640&crop=smart&auto=webp&s=91ebb0b72a760cab08d15c3576beb71f6a9e5043",
+      "link": "./Gamepage/game.html?game=starfield"
+    },
+    {
+      "title": "Baldur's Gate 3",
+      "img": "https://i.redd.it/m2lmw222h0ka1.png",
+      "link": "./Gamepage/game.html?game=baldurs-gate-3"
+    }
+  ],
+  "shelves": {
+    "topSelling": [
+      {
+        "title": "Elden Ring: Shadow of the Erdtree",
+        "img": "https://static.wikia.nocookie.net/eldenring/images/0/00/ER_SOTE_Japanese_Poster.jpg",
+        "link": "./Gamepage/game.html?game=elden-ring"
+      },
+      {
+        "title": "Hogwarts Legacy",
+        "img": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0b/Hogwarts_legacyboxart.svg/800px-Hogwarts_legacyboxart.svg.png",
+        "link": "./Gamepage/game.html?game=hogwarts-legacy"
+      },
+      {
+        "title": "Baldur's Gate 3",
+        "img": "https://static0.polygonimages.com/wordpress/wp-content/uploads/sharedimages/2024/12/mixcollage-08-dec-2024-02-20-pm-5221.jpg",
+        "link": "./Gamepage/game.html?game=baldurs-gate-3"
+      },
+      {
+        "title": "Resident Evil 4 Remake",
+        "img": "https://upload.wikimedia.org/wikipedia/en/d/df/Resident_Evil_4_remake_cover_art.jpg",
+        "link": "./Gamepage/game.html?game=resident-evil-4-remake"
+      },
+      {
+        "title": "Cyberpunk 2077 (Ultimate Edition)",
+        "img": "https://upload.wikimedia.org/wikipedia/en/9/9f/Cyberpunk_2077_box_art.jpg",
+        "link": "./Gamepage/game.html?game=cyberpunk-2077"
+      }
+    ],
+    "mostPlayed": [
+      {
+        "title": "Fortnite",
+        "img": "https://cdn1.epicgames.com/offer/fn/EN_FNFigment_37-00_C1S6_EGS_Launcher_KeyArt_Blade_1200x1600_1200x1600-47bcc2460eec25bf410a71d3449585d2?resize=1&w=360&h=480&quality=medium",
+        "link": "./Gamepage/game.html?game=fortnite"
+      },
+      {
+        "title": "Genshin Impact",
+        "img": "https://cdn1.epicgames.com/offer/879b0d8776ab46a59a129983ba78f0ce/genshintall_1200x1600-4a5697be3925e8cb1f59725a9830cafc",
+        "link": "./Gamepage/game.html?game=genshin-impact"
+      },
+      {
+        "title": "Apex Legends",
+        "img": "https://upload.wikimedia.org/wikipedia/en/d/db/Apex_legends_cover.jpg",
+        "link": "./Gamepage/game.html?game=apex-legends"
+      },
+      {
+        "title": "League of Legends",
+        "img": "https://sm.ign.com/ign_in/cover/l/league-of-/league-of-legends-wild-rift_yxqa.jpg",
+        "link": "./Gamepage/game.html?game=league-of-legends"
+      },
+      {
+        "title": "Valheim",
+        "img": "https://preview.redd.it/cb6vhjj30ap61.gif?format=png8&s=7fede5f0fb30bd3aa14dfdb16eb56e8e8412dedc",
+        "link": "./Gamepage/game.html?game=valheim"
+      }
+    ],
+    "upcoming": [
+      {
+        "title": "Hollow Knight: Silksong",
+        "img": "https://assets-prd.ignimgs.com/2025/04/02/nintendoswitch2-hollow-knight-silksong-keyart-square-1743636317910.jpg?crop=1%3A1%2Csmart&format=jpg&auto=webp&quality=80",
+        "link": "./Gamepage/game.html?game=hollow-knight-silksong"
+      },
+      {
+        "title": "Grand Theft Auto VI",
+        "img": "https://upload.wikimedia.org/wikipedia/en/4/46/Grand_Theft_Auto_VI.png",
+        "link": "./Gamepage/game.html?game=gta-6"
+      },
+      {
+        "title": "Starfield DLC: Shattered Space",
+        "img": "https://upload.wikimedia.org/wikipedia/en/c/c5/Starfield_Shattered_Space_cover_art.png",
+        "link": "./Gamepage/game.html?game=starfield"
+      },
+      {
+        "title": "Monster Hunter Wilds",
+        "img": "https://upload.wikimedia.org/wikipedia/en/thumb/5/52/Monster_Hunter_Wilds_cover.png/250px-Monster_Hunter_Wilds_cover.png",
+        "link": "./Gamepage/game.html?game=monster-hunter-wild"
+      },
+      {
+        "title": "The Witcher 4",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTg8RDqqp3n78YPdvMzZE3A6SZj_9IARdLMg&s",
+        "link": "./Gamepage/game.html?game=witcher-4"
+      }
+    ],
+    "editorsPicks": [
+    {
+      "title": "Metaphor: ReFantazio",
+      "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2679460/library_600x900_2x.jpg",
+      "link": "./Gamepage/game.html?game=metaphor-refantazio"
+    },
+    {
+      "title": "Grand Theft Auto V",
+      "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/271590/library_600x900_2x.jpg",
+      "link": "games/gta-v.html"
+    },
+    {
+      "title": "Baldur's Gate 3",
+      "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/library_600x900_2x.jpg",
+      "link": "./Gamepage/game.html?game=baldurs-gate-3"
+    },
+    {
+      "title": "Black Myth: Wukong",
+      "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2358720/library_600x900_2x.jpg",
+      "link": "./Gamepage/game.html?game=black-myth-wukong"
+    },
+    {
+      "title": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
+      "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1643320/library_600x900_2x.jpg",
+      "link": "./Gamepage/game.html?game=stalker-2"
+    }
+  ],
+  "recentlyUpdated": [
+    {
+      "title": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
+      "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1643320/library_600x900_2x.jpg",
+      "link": "./Gamepage/game.html?game=stalker-2"
+    },
+    {
+      "title": "Fortnite",
+      "img": "https://cdn1.epicgames.com/offer/fn/EN_FNFigment_37-00_C1S6_EGS_Launcher_KeyArt_Blade_1200x1600_1200x1600-47bcc2460eec25bf410a71d3449585d2",
+      "link": "./Gamepage/game.html?game=fortnite"
+    },
+    {
+      "title": "Cyberpunk 2077",
+      "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/library_600x900_2x.jpg",
+      "link": "./Gamepage/game.html?game=cyberpunk-2077"
+    },
+    {
+      "title": "Apex Legends",
+      "img": "https://upload.wikimedia.org/wikipedia/en/d/db/Apex_legends_cover.jpg",
+      "link": "./Gamepage/game.html?game=apex-legends"
+    },
+    {
+      "title": "Minecraft",
+      "img": "https://m.media-amazon.com/images/M/MV5BMTExYTZjMzMtY2NkZi00MmRlLWExMjEtZWZiYzlhYTM1ZjQ1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+      "link": "./Gamepage/game.html?game=minecraft"
+    }
+  ],
+  "hiddenGems": [
+    {
+      "title": "Disco Elysium",
+      "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/632470/library_600x900_2x.jpg",
+      "link": "./Gamepage/game.html?game=disco-elysium"
+    },
+    {
+      "title": "The Finals",
+      "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2073850/library_600x900_2x.jpg",
+      "link": "./Gamepage/game.html?game=the-finals"
+    },
+    {
+      "title": "Red Dead Redemption 2",
+      "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/library_600x900_2x.jpg",
+      "link": "games/red-dead-redemption-2.html"
+    },
+    {
+      "title": "Control",
+      "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/870780/library_600x900_2x.jpg",
+      "link": "./Gamepage/game.html?game=control"
+    },
+    {
+      "title": "Rainbow Six Siege",
+      "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/359550/library_600x900_2x.jpg",
+      "link": "games/rainbow-six-siege.html"
+    }
+  ]
+  },
+  "stories": [
+    {
+      "link": "https://www.fortnite.com/competitive/",
+      "img": "https://d1xsi6mgo67kia.cloudfront.net/uploads/2024/08/fortnite-na-central-server-region-3-1920x1080-8e53d35d7d26.jpg",
+      "title": "Fortnite",
+      "description": "SwizzY, Queasy, and Merstach win the 2025 FNCS Global Championship!"
+    },
+    {
+      "link": "https://playvalorant.com/en-us/news/tags/valorant-champions-tour/",
+      "img": "https://media.altchar.com/prod/images/gm_article_embed_image/586b39a178df-valorant-update-910.webp",
+      "title": "Valorant",
+      "description": "Unearthing secrets hidden beneath the Amazonian canopy."
+    },
+    {
+      "link": "https://www.counter-strike.net/newsentry/578276333072682038",
+      "img": "https://www.dexerto.com/cdn-image/wp-content/uploads/2023/03/14/csgo.jpg",
+      "title": "Counter Strike 2",
+      "description": "How artificial intelligence is transforming everyday life."
+    }
+  ],
+  "stories2": [
+    {
+      "link": "https://in.ign.com/resident-evil-requiem/247335/news/resident-evil-requiem-producer-teases-characters-involved-in-the-raccoon-city-incident-are-in-the-ga",
+      "img": "https://news.ssbcrack.com/wp-content/uploads/2025/11/Resident-Evil-Requiem-to-Feature-Fresh-Save-Room-Music-and.jpg",
+      "title": "Resident Evil Requiem",
+      "description": "Resident Evil Requiem Producer Teases Characters 'Involved in the Raccoon City Incident' Are in the Game"
+    },
+    {
+      "link": "https://www.reddit.com/r/gaming/comments/yl7u3b/god_of_war_ragnar%C3%B6k_scores_94100/",
+      "img": "https://i.redd.it/todg98a7nrx91.jpg",
+      "title": "God of War Ragnarok",
+      "description": "God of War Ragnarök scores 94/100🚀"
+    },
+    {
+      "link": "https://www.gamestop.com/video-games/playstation-5/products/astro-bot---playstation-5/409781.html",
+      "img": "https://media.gamestop.com/i/gamestop/20008648_SCR16?w=1256&h=664&fmt=auto",
+      "title": "Astro Bot is Your 2024 Game of the Year!",
+      "description": "From the very first moment you start playing, Astro Bot radiates joy."
+    }
+  ],
+  "news": [
+    {
+      "title": "Fortnite New Update",
+      "description": "Fortnite drops a massive new patch featuring map changes, new weapons, balance tweaks, and a surprise event tease.",
+      "img": "https://d1xsi6mgo67kia.cloudfront.net/uploads/2024/08/fortnite-na-central-server-region-3-1920x1080-8e53d35d7d26.jpg",
+      "link": "#"
+    },
+    {
+      "title": "Stellar Blade™ x NieR:Automata",
+      "description": "In this DLC, the character “Emil’s Shop” from the action RPG NieR:Automata™, produced by Square Enix and directed by Yoko Taro, appears with his item shop in the world of Stellar Blade™.*\n\n“Emil’s Shop” is a mobile item shop that freely moves around the Wastelands and the Great Desert open areas.",
+      "img": "https://i.ytimg.com/vi/Fr1lkJZAxm0/maxresdefault.jpg",
+      "link": "#"
+    }
+  ]
+}

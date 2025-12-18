@@ -1,0 +1,1268 @@
+{
+  "ghost-of-tsushima": {
+    "slug": "ghost-of-tsushima",
+    "title": "Ghost of Tsushima DIRECTOR'S CUT",
+    "youtube_id": "iqysmS4lxwQ",
+    "description": "Ghost of Tsushima is an open-world action-adventure set in feudal Japan that follows Jin Sakai as he defends Tsushima Island from Mongol invaders. The Director's Cut includes the Iki Island expansion and enhanced PC features.",
+    "about": "Venture into the complete Ghost of Tsushima DIRECTOR'S CUT on PC; forge your own path through this open-world action-adventure and uncover its hidden wonders. Developed by Sucker Punch Productions and brought to PC by Nixxes Software.",
+    "screenshots": [
+      "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2215430/ss_d60e16422fc1605181e0fedee3e2cfc1e02c750e.1920x1080.jpg?t=1763409398",
+      "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2215430/ss_11409331d57966ef193d66ffcded569d02a4e034.1920x1080.jpg?t=1763409398",
+      "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2215430/ss_63cc7ea967bf808c73129792d9ae8e3fdb2962bf.1920x1080.jpg?t=1763409398"
+    ],
+    "requirements": {
+      "minimum": {
+        "os": "Windows 10 64-bit",
+        "cpu": "Intel Core i3-7100 / AMD Ryzen 3 1200",
+        "gpu": "NVIDIA GeForce GTX 960 / AMD Radeon RX 5500 XT",
+        "memory": "8 GB RAM",
+        "storage": "75 GB"
+      },
+      "recommended": {
+        "os": "Windows 10/11 64-bit",
+        "cpu": "Intel Core i5-8600 / AMD Ryzen 5 3600",
+        "gpu": "NVIDIA GTX 1060 / AMD Radeon RX 6600",
+        "memory": "16 GB RAM",
+        "storage": "SSD with 75 GB free space"
+      }
+    },
+    "age_rating": {
+      "img": "https://rating.pegi.info/assets/images/games/age_threshold_icons/18.png",
+      "title": "18+",
+      "description": "Violence, strong language, mature themes."
+    },
+    "developer": "Sucker Punch Productions (PC: Nixxes Software)",
+    "publisher": "PlayStation Publishing / Sony Interactive Entertainment",
+    "release": "2024-05-16",
+    "genre": "Action, Adventure, Open World"
+  },
+  "gta-6": {
+    "slug": "gta-6",
+    "title": "Grand Theft Auto VI",
+    "youtube_id": "QdBZY2fkU-0",
+    "description": "The next entry in Rockstar’s legendary open-world action series, set in a dynamic, evolving world of crime and freedom.",
+    "about": "Grand Theft Auto VI is an upcoming action-adventure game developed and published by Rockstar Games. It is due to be the eighth main Grand Theft Auto game, following Grand Theft Auto V, and the sixteenth entry overall.",
+    "screenshots": [
+      "https://www.topgear.com/sites/default/files/2025/05/Vice_City_09.jpg",
+      "https://www.topgear.com/sites/default/files/2025/05/Grassrivers_03_0.jpg?w=1784&h=1004",
+      "https://www.topgear.com/sites/default/files/2025/05/Grassrivers_04_0.jpg?w=1784&h=1004",
+      "https://www.topgear.com/sites/default/files/2025/05/Leonida_Keys_04.jpg?w=1784&h=1004"
+    ],
+    "requirements": {
+      "minimum": {
+        "os": "Windows 10 64-bit",
+        "cpu": "Intel Core i7 8700K / AMD Ryzen 5 3600",
+        "gpu": "NVIDIA GTX 1060 / AMD RX 580",
+        "memory": "16 GB RAM",
+        "storage": "150 GB"
+      },
+      "recommended": {
+        "os": "Windows 11 64-bit",
+        "cpu": "Intel Core i9 9900K / AMD Ryzen 7 5800X",
+        "gpu": "NVIDIA RTX 3070 / AMD RX 6800",
+        "memory": "32 GB RAM",
+        "storage": "150 GB SSD"
+      }
+    },
+    "age_rating": {
+      "img": "https://rating.pegi.info/assets/images/games/age_threshold_icons/18.png",
+      "title": "18+",
+      "description": "Violence, Strong Language, Mature Themes"
+    },
+    "developer": "Rockstar North",
+    "publisher": "Rockstar Games",
+    "release": "2026-11-19",
+    "genre": "Action,Adventure"
+  },
+  "ghost-of-yotei": {
+    "slug": "ghost-of-yotei",
+    "title": "Ghost of Yōtei",
+    "youtube_id": "7z7kqwuf0a8",
+    "description": "A standalone samurai revenge adventure set in 1603 rural Japan, where a lone mercenary hunts those who killed her family.",
+    "about": "Ghost of Yōtei is an action-adventure game developed by Sucker Punch Productions for PS5, set around Mount Yōtei in 1603.",
+    "screenshots": [
+      "https://cdn.mos.cms.futurecdn.net/VuzJztVk3E8vsiAPnsto5E.jpg",
+      "https://cdn.mos.cms.futurecdn.net/pSYQPAhUXDWGLHfmwmnhTQ-1200-80.jpg.webp",
+      "https://cdn.mos.cms.futurecdn.net/PN5zNspt8YKYGq2sNeQgyD-1200-80.jpg.webp",
+      "https://cdn.mos.cms.futurecdn.net/Sm2gpnoriDHAhwJSCMpsyD-1200-80.jpg.webp",
+      "https://cdn.mos.cms.futurecdn.net/CYqHjpmLHqdLaw9ktPUBuD-1200-80.jpg.webp"
+    ],
+    "requirements": {
+      "minimum": {
+        "os": "Windows 10 64-bit",
+        "cpu": "Intel Core i5-8600K / AMD Ryzen 5 2600",
+        "gpu": "NVIDIA GTX 1660 Super / AMD RX 5600 XT",
+        "memory": "16 GB RAM",
+        "storage": "120 GB SSD"
+      },
+      "recommended": {
+        "os": "Windows 11 64-bit",
+        "cpu": "Intel Core i7-9700K / AMD Ryzen 7 3700X",
+        "gpu": "NVIDIA RTX 3060 Ti / AMD RX 6700",
+        "memory": "32 GB RAM",
+        "storage": "120 GB SSD"
+      }
+    },
+    "age_rating": {
+      "img": "https://rating.pegi.info/assets/images/games/age_threshold_icons/18.png",
+      "title": "18+",
+      "description": "Violence, Blood, Mature Themes"
+    },
+    "developer": "Sucker Punch Productions",
+    "publisher": "Sony Interactive Entertainment",
+    "release": "2025-10-02",
+    "genre": "Action,Adventure"
+  },
+  "hollow-knight-silksong": {
+    "slug": "hollow-knight-silksong",
+    "title": "Hollow Knight: Silksong",
+    "youtube_id": "pFAknD_9U7c",
+    "description": "A fast, fluid, needle-sharp Metroidvania following Hornet as she ascends through a mysterious haunted kingdom.",
+    "about": "Hollow Knight: Silksong is an upcoming action-platformer developed by Team Cherry. The game follows Hornet, princess-protector of Hallownest, as she's taken to the kingdom of Pharloom and fights her way to the top of the shimmering citadel.",
+    "screenshots": [
+      "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1030300/26950369fe4b03c2268620eb9815c8a246aa0b06/ss_26950369fe4b03c2268620eb9815c8a246aa0b06.1920x1080.jpg?t=1756994410",
+      "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1030300/d1a893ec6357b347a55ed929833ba793b57a79d2/ss_d1a893ec6357b347a55ed929833ba793b57a79d2.1920x1080.jpg?t=1756994410",
+      "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1030300/856e33e755a0b9a785c645d116036516ea08812b/ss_856e33e755a0b9a785c645d116036516ea08812b.1920x1080.jpg?t=1756994410"
+    ],
+    "requirements": {
+      "minimum": {
+        "os": "Windows 10 64-bit",
+        "cpu": "Intel Core i3-4130 / AMD FX-8370",
+        "gpu": "NVIDIA GTX 950 / AMD R7 360",
+        "memory": "8 GB RAM",
+        "storage": "10 GB SSD"
+      },
+      "recommended": {
+        "os": "Windows 10 64-bit",
+        "cpu": "Intel Core i5-6500 / AMD Ryzen 5 1600",
+        "gpu": "NVIDIA GTX 1050 Ti / AMD RX 560",
+        "memory": "16 GB RAM",
+        "storage": "10 GB SSD"
+      }
+    },
+    "age_rating": {
+      "img": "https://rating.pegi.info/assets/images/games/age_threshold_icons/12.png",
+      "title": "12+",
+      "description": "Fantasy Violence"
+    },
+    "developer": "Team Cherry",
+    "publisher": "Team Cherry",
+    "release": "TBA",
+    "genre": "Action,Adventure,Metroidvania"
+  },
+  "nier-automata": {
+    "slug": "nier-automata",
+    "title": "NieR: Automata",
+    "youtube_id": "wJxNhJ8fjFk",
+    "description": "A fast-paced action RPG where androids battle machines in a desolate future Earth.",
+    "about": "NieR: Automata is an action RPG developed by PlatinumGames and published by Square Enix. Set in a post-apocalyptic world overrun by machine lifeforms, players follow android units 2B, 9S, and A2 in a story blending combat, philosophy, and emotional depth.",
+    "screenshots": [
+      "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/524220/ss_8b29f7e1ce9a8b9313dc3eb50dbe76a4cf94eef9.1920x1080.jpg?t=1760991364",
+      "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/524220/ss_2c265df38c3d2d393d74ee8e74d79bdafa16b143.1920x1080.jpg?t=1760991364",
+      "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/524220/ss_e926e3b5d440b4f244525745c7100edc2d717b85.1920x1080.jpg?t=1760991364",
+      "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/524220/ss_02d2f3f2b7b7add8e6ad50d6b9325d05fa1d7bc7.1920x1080.jpg?t=1760991364"
+    ],
+    "requirements": {
+      "minimum": {
+        "os": "Windows 7 64-bit",
+        "cpu": "Intel Core i3-2100 / AMD A8-6500",
+        "gpu": "NVIDIA GTX 770 / AMD R9 270X",
+        "memory": "4 GB RAM",
+        "storage": "50 GB"
+      },
+      "recommended": {
+        "os": "Windows 8.1 / 10 64-bit",
+        "cpu": "Intel Core i5-4670 / AMD Ryzen 3 1200",
+        "gpu": "NVIDIA GTX 980 / AMD RX 470",
+        "memory": "8 GB RAM",
+        "storage": "50 GB"
+      }
+    },
+    "age_rating": {
+      "img": "https://rating.pegi.info/assets/images/games/age_threshold_icons/18.png",
+      "title": "18+",
+      "description": "Violence, Blood, Partial Nudity"
+    },
+    "developer": "PlatinumGames",
+    "publisher": "Square Enix",
+    "release": "2017-03-17",
+    "genre": "Action,RPG"
+  },
+  "cyberpunk-2077": {
+    "slug": "cyberpunk-2077",
+    "title": "Cyberpunk 2077",
+    "youtube_id": "8X2kIfS6fb8",
+    "description": "A futuristic open-world RPG set in the neon-soaked streets of Night City.",
+    "about": "Cyberpunk 2077 is an open-world action RPG developed by CD Projekt Red. You play as V, a mercenary navigating high-tech body mods, gang wars, and corporate power struggles in a massive dystopian city.",
+    "screenshots": [
+      "https://cdn.wccftech.com/wp-content/uploads/2020/06/Cyberpunk-2077-Jun-25th-Screenshots-9.jpg",
+      "https://www.dsogaming.com/wp-content/uploads/2020/06/Cyberpunk-2077-2020-new-screenshots-1.jpg",
+      "https://gamingbolt.com/wp-content/uploads/2019/03/Cyberpunk-2077.jpg",
+      "https://cdn.mos.cms.futurecdn.net/Zr4zQeB2SdM2UTKk3Mjpvc.jpg"
+    ],
+    "requirements": {
+      "minimum": {
+        "os": "Windows 10 64-bit",
+        "cpu": "Intel Core i5-3570K / AMD FX-8310",
+        "gpu": "NVIDIA GTX 970 / AMD RX 470",
+        "memory": "8 GB RAM",
+        "storage": "70 GB SSD"
+      },
+      "recommended": {
+        "os": "Windows 10 64-bit",
+        "cpu": "Intel Core i7-4790 / AMD Ryzen 3 3200G",
+        "gpu": "NVIDIA GTX 1060 6GB / AMD RX 590",
+        "memory": "12 GB RAM",
+        "storage": "70 GB SSD"
+      }
+    },
+    "age_rating": {
+      "img": "https://rating.pegi.info/assets/images/games/age_threshold_icons/18.png",
+      "title": "18+",
+      "description": "Violence, Strong Language, Sexual Content, Drugs"
+    },
+    "developer": "CD Projekt Red",
+    "publisher": "CD Projekt",
+    "release": "2020-12-10",
+    "genre": "Action,RPG,Open-World"
+  },
+  "avatar-frontiers-of-pandora": {
+    "slug": "avatar-frontiers-of-pandora",
+    "title": "Avatar: Frontiers of Pandora",
+    "youtube_id": "RDzw1EKnaIA",
+    "description": "A first-person open-world adventure set on Pandora where you fight to protect the Na'vi homeland.",
+    "about": "Avatar: Frontiers of Pandora is an open-world action-adventure game developed by Massive Entertainment and published by Ubisoft. You play as a Na'vi raised by the RDA, returning to your roots to explore the Western Frontier of Pandora.",
+    "screenshots": [
+      "https://www.videogameschronicle.com/files/2021/06/Avatar-Frontiers-of-Pandora-a-scaled.jpg",
+      "https://cdnb.artstation.com/p/assets/images/images/068/968/867/4k/abrar-khan-ikran-rookery-copy.jpg?1699028149",
+      "https://cdn.mos.cms.futurecdn.net/vAJq7SLUFh7RE7AXNVrYv7.jpg",
+      "https://wallpapers.com/images/hd/avatar-pandora-o7u6d6yrbz6tcxfo.jpg"
+    ],
+    "requirements": {
+      "minimum": {
+        "os": "Windows 10 64-bit",
+        "cpu": "AMD Ryzen 5 3600 / Intel Core i7-8700",
+        "gpu": "AMD RX 5700 / NVIDIA GTX 1070",
+        "memory": "16 GB RAM",
+        "storage": "90 GB SSD"
+      },
+      "recommended": {
+        "os": "Windows 11 64-bit",
+        "cpu": "AMD Ryzen 7 5800X / Intel Core i7-9700K",
+        "gpu": "AMD RX 6800 XT / NVIDIA RTX 3080",
+        "memory": "16–32 GB RAM",
+        "storage": "90 GB SSD"
+      }
+    },
+    "age_rating": {
+      "img": "https://rating.pegi.info/assets/images/games/age_threshold_icons/16.png",
+      "title": "16+",
+      "description": "Violence, Mild Language"
+    },
+    "developer": "Massive Entertainment",
+    "publisher": "Ubisoft",
+    "release": "2023-12-07",
+    "genre": "Action,Adventure,Open-World"
+  },
+  "gta-trilogy-definitive-edition": {
+    "slug": "gta-trilogy-definitive-edition",
+    "title": "Grand Theft Auto: The Trilogy – Definitive Edition",
+    "youtube_id": "d4RsWlcxg6c",
+    "description": "Remastered versions of GTA III, GTA Vice City, and GTA San Andreas with upgraded visuals and modern controls.",
+    "about": "GTA Trilogy – Definitive Edition bundles three classics: Grand Theft Auto III, Grand Theft Auto: Vice City, and Grand Theft Auto: San Andreas. Developed by Grove Street Games and published by Rockstar Games, it features enhanced lighting, textures, controls, and gameplay improvements for modern systems.",
+    "screenshots": [
+      "https://media.altchar.com/prod/images/940_530/gm-20288697-92d7-4329-956a-ea61e9b75421-gta-trilogy.jpg",
+      "https://nintendoeverything.com/wp-content/uploads/sites/1/nggallery/gta-the-trilogy-oct-23/gta-trilogy-definitive-edition-san-andreas-2.jpg",
+      "https://cdn.wccftech.com/wp-content/uploads/2021/11/GTAVC_Switch_Retail-5-1030x579.jpg",
+      "https://c1-ebgames.eb-cdn.com.au/merchandising/images/screenshots/c4b2cc27740049138f9c123a32de5912_l.jpg"
+    ],
+    "requirements": {
+      "minimum": {
+        "os": "Windows 10 64-bit",
+        "cpu": "Intel Core i5-6600K / AMD FX-6300",
+        "gpu": "NVIDIA GTX 760 / AMD R9 280",
+        "memory": "8 GB RAM",
+        "storage": "45 GB SSD"
+      },
+      "recommended": {
+        "os": "Windows 10 64-bit",
+        "cpu": "Intel Core i7-2700K / AMD Ryzen 5 2600",
+        "gpu": "NVIDIA GTX 970 / AMD RX 570",
+        "memory": "16 GB RAM",
+        "storage": "45 GB SSD"
+      }
+    },
+    "age_rating": {
+      "img": "https://rating.pegi.info/assets/images/games/age_threshold_icons/18.png",
+      "title": "18+",
+      "description": "Violence, Drugs, Strong Language"
+    },
+    "developer": "Grove Street Games",
+    "publisher": "Rockstar Games",
+    "release": "2021-11-11",
+    "genre": "Action,Open-World"
+  },
+  "elden-ring": {
+    "slug": "elden-ring",
+    "title": "Elden Ring",
+    "youtube_id": "E3Huy2cdih0",
+    "description": "A vast dark-fantasy open world where you rise as the Tarnished to claim the Elden Ring.",
+    "about": "Elden Ring is an open-world action RPG developed by FromSoftware and published by Bandai Namco. Created with story contributions from George R. R. Martin, it features massive exploration, brutal combat, and deep lore.",
+    "screenshots": [
+      "https://images.steamusercontent.com/ugc/15260613089779928168/49E9FF88672AE3C93E857968FFA34285F79DA906/?imw=1920&&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false",
+      "https://images.steamusercontent.com/ugc/12880944203786317121/FB79D3B37A65E85C55946B840047A6DFFD1AAC85/?imw=1920&&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false",
+      "https://images.steamusercontent.com/ugc/14744560298396997845/130B9E818EC3FCF89B3DC87B7A1FE0F0887037DA/?imw=1920&&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false",
+      "https://images.steamusercontent.com/ugc/16076860326744242657/264EEB09BBCE4ED0A5F1667148E5EDFE5B1BCEFD/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false"
+    ],
+    "requirements": {
+      "minimum": {
+        "os": "Windows 10 64-bit",
+        "cpu": "Intel Core i5-8400 / AMD Ryzen 3 3300X",
+        "gpu": "NVIDIA GTX 1060 3GB / AMD RX 580",
+        "memory": "12 GB RAM",
+        "storage": "60 GB SSD"
+      },
+      "recommended": {
+        "os": "Windows 10 64-bit",
+        "cpu": "Intel Core i7-8700K / AMD Ryzen 5 3600X",
+        "gpu": "NVIDIA GTX 1070 / AMD RX Vega 56",
+        "memory": "16 GB RAM",
+        "storage": "60 GB SSD"
+      }
+    },
+    "age_rating": {
+      "img": "https://rating.pegi.info/assets/images/games/age_threshold_icons/16.png",
+      "title": "16+",
+      "description": "Violence"
+    },
+    "developer": "FromSoftware",
+    "publisher": "Bandai Namco Entertainment",
+    "release": "2022-02-25",
+    "genre": "Action,RPG,Open-World"
+  },
+  "rdr2": {
+    "slug": "rdr2",
+    "title": "Red Dead Redemption 2",
+    "youtube_id": "eaW0tYpxyp0",
+    "description": "An epic western open-world adventure from Rockstar Games.",
+    "about": "Red Dead Redemption 2 is an action-adventure game developed and published by Rockstar Games, following Arthur Morgan and the Van der Linde gang in 1899 America.",
+    "screenshots": [
+      "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1174180/ss_d1a8f5a69155c3186c65d1da90491fcfd43663d9.1920x1080.jpg?t=1759502961",
+      "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1174180/ss_bac60bacbf5da8945103648c08d27d5e202444ca.1920x1080.jpg?t=1759502961",
+      "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1174180/ss_66b553f4c209476d3e4ce25fa4714002cc914c4f.1920x1080.jpg?t=1759502961"
+    ],
+    "requirements": {
+      "minimum": {
+        "os": "Windows 10 64-bit",
+        "cpu": "Intel Core i5-2500K / AMD FX-6300",
+        "gpu": "NVIDIA GTX 770 / AMD R9 280",
+        "memory": "8 GB RAM",
+        "storage": "150 GB"
+      },
+      "recommended": {
+        "os": "Windows 10 64-bit",
+        "cpu": "Intel Core i7-4770K / AMD Ryzen 5 1500X",
+        "gpu": "NVIDIA GTX 1060 6GB / AMD RX 480",
+        "memory": "12 GB RAM",
+        "storage": "150 GB"
+      }
+    },
+    "age_rating": {
+      "img": "https://rating.pegi.info/assets/images/games/age_threshold_icons/18.png",
+      "title": "18+",
+      "description": "Violence, Bad Language"
+    },
+    "developer": "Rockstar Games",
+    "publisher": "Rockstar Games",
+    "release": "2019-11-05",
+    "genre": "Action,Adventure,Open-World"
+  },
+  "witcher-3": {
+    "slug": "witcher-3",
+    "title": "The Witcher 3: Wild Hunt",
+    "youtube_id": "c0i88t0Kacs",
+    "description": "A massive fantasy RPG following Geralt of Rivia.",
+    "about": "The Witcher 3: Wild Hunt is an open-world RPG developed by CD Projekt Red. You play as Geralt, a monster hunter searching for Ciri.",
+    "screenshots": [
+      "https://www.thewitcher.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F1.4c59601c.jpg&w=3840&q=75",
+      "https://attackofthefanboy.com/wp-content/uploads/2015/05/Witcher-3-City.jpg",
+      "https://all-things-andy-gavin.com/wp-content/uploads/2016/03/witcher-3-1.jpg"
+    ],
+    "requirements": {
+      "minimum": {
+        "os": "Windows 7 64-bit",
+        "cpu": "Intel Core i5-2500K / AMD Phenom II X4 940",
+        "gpu": "NVIDIA GTX 660 / AMD HD 7870",
+        "memory": "6 GB RAM",
+        "storage": "50 GB"
+      },
+      "recommended": {
+        "os": "Windows 10 64-bit",
+        "cpu": "Intel Core i7-3770 / AMD FX-8350",
+        "gpu": "NVIDIA GTX 770 / AMD R9 290",
+        "memory": "8 GB RAM",
+        "storage": "50 GB"
+      }
+    },
+    "age_rating": {
+      "img": "https://rating.pegi.info/assets/images/games/age_threshold_icons/18.png",
+      "title": "18+",
+      "description": "Violence, Sexual Content, Bad Language"
+    },
+    "developer": "CD Projekt Red",
+    "publisher": "CD Projekt",
+    "release": "2015-05-19",
+    "genre": "Action,RPG,Open-World"
+  },
+  "halo-infinite": {
+    "slug": "halo-infinite",
+    "title": "Halo Infinite",
+    "youtube_id": "PyMlV5_HRWk",
+    "description": "Master Chief returns in an open-world Halo adventure.",
+    "about": "Halo Infinite is a sci-fi FPS developed by 343 Industries and published by Xbox Game Studios.",
+    "screenshots": [
+      "https://cdn.akamai.steamstatic.com/steam/apps/1240440/ss_b89f7087134e696e47f8b68c2e8fadc182d4c876.1920x1080.jpg",
+      "https://cdn.akamai.steamstatic.com/steam/apps/1240440/ss_4afef40e7f8333bd3d8db15bf95df2da233c6f03.1920x1080.jpg"
+    ],
+    "requirements": {
+      "minimum": {
+        "os": "Windows 10",
+        "cpu": "Intel i5-4440 / AMD Ryzen 5 1600",
+        "gpu": "NVIDIA GTX 1050 Ti / AMD RX 570",
+        "memory": "8 GB RAM",
+        "storage": "50 GB"
+      },
+      "recommended": {
+        "os": "Windows 10",
+        "cpu": "Intel i7-8700 / AMD Ryzen 7 3700X",
+        "gpu": "NVIDIA RTX 2070 / AMD RX 5700 XT",
+        "memory": "16 GB RAM",
+        "storage": "50 GB"
+      }
+    },
+    "age_rating": {
+      "img": "https://rating.pegi.info/assets/images/games/age_threshold_icons/16.png",
+      "title": "16+",
+      "description": "Violence"
+    },
+    "developer": "343 Industries",
+    "publisher": "Xbox Game Studios",
+    "release": "2021-12-08",
+    "genre": "FPS,Action"
+  },
+  "forza-horizon-5": {
+    "slug": "forza-horizon-5",
+    "title": "Forza Horizon 5",
+    "youtube_id": "FYH9n37B7Yw",
+    "description": "A massive open-world racing adventure set in Mexico.",
+    "about": "Forza Horizon 5 is an open-world racing game developed by Playground Games and published by Xbox Game Studios.",
+    "screenshots": [
+      "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1551360/ss_cf56e25a0290556ba83229eb0ab370d10be0407c.1920x1080.jpg?t=1746471508",
+      "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1551360/ss_b65236b365315ebb6da6114ce42cd74b59cab3c8.1920x1080.jpg?t=1746471508"
+    ],
+    "requirements": {
+      "minimum": {
+        "os": "Windows 10",
+        "cpu": "Intel i5-4460 / AMD Ryzen 3 1200",
+        "gpu": "NVIDIA GTX 970 / AMD RX 470",
+        "memory": "8 GB RAM",
+        "storage": "110 GB"
+      },
+      "recommended": {
+        "os": "Windows 10",
+        "cpu": "Intel i5-8400 / AMD Ryzen 5 1500X",
+        "gpu": "NVIDIA GTX 1070 / AMD RX 590",
+        "memory": "16 GB RAM",
+        "storage": "110 GB"
+      }
+    },
+    "age_rating": {
+      "img": "https://rating.pegi.info/assets/images/games/age_threshold_icons/3.png",
+      "title": "3+",
+      "description": "Racing"
+    },
+    "developer": "Playground Games",
+    "publisher": "Xbox Game Studios",
+    "release": "2021-11-09",
+    "genre": "Racing,Open-World"
+  },
+  "resident-evil-4-remake": {
+    "slug": "resident-evil-4-remake",
+    "title": "Resident Evil 4 Remake",
+    "youtube_id": "XZ_0ek5v0tQ",
+    "description": "A reimagined survival-horror classic.",
+    "about": "Resident Evil 4 Remake is a survival-horror game developed and published by Capcom, retelling Leon Kennedy’s rescue mission with modern visuals.",
+    "screenshots": [
+      "https://cdn.akamai.steamstatic.com/steam/apps/2050650/ss_3d45c3f8cacdd1b85bbff1dd6ec1345ca9015ae0.1920x1080.jpg",
+      "https://cdn.akamai.steamstatic.com/steam/apps/2050650/ss_2dc586fe63ff0ce53c13ea582d9f366c9271b4b8.1920x1080.jpg"
+    ],
+    "requirements": {
+      "minimum": {
+        "os": "Windows 10 64-bit",
+        "cpu": "Intel Core i5-7500 / AMD Ryzen 3 1200",
+        "gpu": "NVIDIA GTX 1050 Ti",
+        "memory": "8 GB RAM",
+        "storage": "60 GB"
+      },
+      "recommended": {
+        "os": "Windows 10 64-bit",
+        "cpu": "Intel Core i7-8700 / AMD Ryzen 5 3600",
+        "gpu": "NVIDIA GTX 1070 / AMD RX 5700",
+        "memory": "16 GB RAM",
+        "storage": "60 GB"
+      }
+    },
+    "age_rating": {
+      "img": "https://rating.pegi.info/assets/images/games/age_threshold_icons/18.png",
+      "title": "18+",
+      "description": "Violence, Gore"
+    },
+    "developer": "Capcom",
+    "publisher": "Capcom",
+    "release": "2023-03-24",
+    "genre": "Action,Horror"
+  },
+  "diablo-iv": {
+    "slug": "diablo-iv",
+    "title": "Diablo IV",
+    "youtube_id": "0SSYzl9fXOQ",
+    "description": "A dark, open-world action RPG where humanity battles the return of Lilith.",
+    "about": "Diablo IV is an action RPG developed and published by Blizzard Entertainment. It features an open world, class-based combat, dungeons, PvP zones, and the return of Lilith as the main antagonist.",
+    "screenshots": [
+      "https://cdn.akamai.steamstatic.com/steam/apps/2344520/ss_43a4caaeccf74bfebf07efde396ed1aaba38f868.1920x1080.jpg",
+      "https://cdn.akamai.steamstatic.com/steam/apps/2344520/ss_68b7e18e2f212cb3f77cb93e605edfee5e5ce97e.1920x1080.jpg",
+      "https://cdn.akamai.steamstatic.com/steam/apps/2344520/ss_346aa8afba9b5a2e1dcdbc663f796416c7c78544.1920x1080.jpg"
+    ],
+    "requirements": {
+      "minimum": {
+        "os": "Windows 10 64-bit",
+        "cpu": "Intel Core i5-2500K / AMD FX-8100",
+        "gpu": "NVIDIA GTX 660 / AMD R9 280",
+        "memory": "8 GB RAM",
+        "storage": "90 GB SSD"
+      },
+      "recommended": {
+        "os": "Windows 10 64-bit",
+        "cpu": "Intel Core i5-4670K / AMD R3-1300X",
+        "gpu": "NVIDIA GTX 970 / AMD RX 470",
+        "memory": "16 GB RAM",
+        "storage": "90 GB SSD"
+      }
+    },
+    "age_rating": {
+      "img": "https://rating.pegi.info/assets/images/games/age_threshold_icons/18.png",
+      "title": "18+",
+      "description": "Violence, Gore"
+    },
+    "developer": "Blizzard Entertainment",
+    "publisher": "Blizzard Entertainment",
+    "release": "2023-06-06",
+    "genre": "Action,RPG"
+  },
+  "hogwarts-legacy": {
+    "slug": "hogwarts-legacy",
+    "title": "Hogwarts Legacy",
+    "youtube_id": "1O6Qstncpnc",
+    "description": "A magical open-world RPG set in the 1800s wizarding world.",
+    "about": "Hogwarts Legacy is an open-world action RPG developed by Avalanche Software and published by Warner Bros. Games, letting players live as a student at Hogwarts.",
+    "screenshots": [
+      "https://cdn.akamai.steamstatic.com/steam/apps/990080/ss_454d47a032e0cd8477228bf97088abee9f31fa8c.1920x1080.jpg",
+      "https://cdn.akamai.steamstatic.com/steam/apps/990080/ss_a1c462dcd4cc30ffae26e6c1d80bf07aba8dd699.1920x1080.jpg",
+      "https://cdn.akamai.steamstatic.com/steam/apps/990080/ss_9234d29d03103a12c1214aa334f33c5491e4a1a4.1920x1080.jpg"
+    ],
+    "requirements": {
+      "minimum": {
+        "os": "Windows 10 64-bit",
+        "cpu": "Intel Core i5-6600 / AMD Ryzen 5 1400",
+        "gpu": "NVIDIA GTX 960 / AMD RX 470",
+        "memory": "16 GB RAM",
+        "storage": "85 GB SSD"
+      },
+      "recommended": {
+        "os": "Windows 10 64-bit",
+        "cpu": "Intel Core i7-8700 / AMD Ryzen 5 3600",
+        "gpu": "NVIDIA RTX 2060 / AMD RX 5700",
+        "memory": "16 GB RAM",
+        "storage": "85 GB SSD"
+      }
+    },
+    "age_rating": {
+      "img": "https://rating.pegi.info/assets/images/games/age_threshold_icons/12.png",
+      "title": "12+",
+      "description": "Violence, Fear"
+    },
+    "developer": "Avalanche Software",
+    "publisher": "Warner Bros. Games",
+    "release": "2023-02-10",
+    "genre": "Action,RPG,Open-World"
+  },
+  "baldurs-gate-3": {
+    "slug": "baldurs-gate-3",
+    "title": "Baldur's Gate 3",
+    "youtube_id": "Yl6z0yqgA7M",
+    "description": "A cinematic story-driven RPG set in the Dungeons & Dragons universe.",
+    "about": "Baldur's Gate 3 is an RPG developed and published by Larian Studios, featuring deep choices, tactical combat, and branching narratives.",
+    "screenshots": [
+      "https://cdn.akamai.steamstatic.com/steam/apps/1086940/ss_e73b867de0d5926610dfafad9dca7dbb825f9e3a.1920x1080.jpg",
+      "https://cdn.akamai.steamstatic.com/steam/apps/1086940/ss_50bead02a0e620b05e560c3b1f84b7c2e6ae3739.1920x1080.jpg",
+      "https://cdn.akamai.steamstatic.com/steam/apps/1086940/ss_77a9fddda79fba399a097e68bc35cdbd22fcf04e.1920x1080.jpg"
+    ],
+    "requirements": {
+      "minimum": {
+        "os": "Windows 10 64-bit",
+        "cpu": "Intel i5-4690 / AMD FX-8350",
+        "gpu": "NVIDIA GTX 970 / AMD RX 480",
+        "memory": "8 GB RAM",
+        "storage": "150 GB"
+      },
+      "recommended": {
+        "os": "Windows 10 64-bit",
+        "cpu": "Intel i7-8700K / AMD Ryzen 5 3600",
+        "gpu": "NVIDIA RTX 2060 Super / AMD RX 5700 XT",
+        "memory": "16 GB RAM",
+        "storage": "150 GB"
+      }
+    },
+    "age_rating": {
+      "img": "https://rating.pegi.info/assets/images/games/age_threshold_icons/18.png",
+      "title": "18+",
+      "description": "Violence, Sexual Content, Gore"
+    },
+    "developer": "Larian Studios",
+    "publisher": "Larian Studios",
+    "release": "2023-08-03",
+    "genre": "RPG,Adventure"
+  },
+  "fortnite": {
+    "slug": "fortnite",
+    "title": "Fortnite",
+    "youtube_id": "2gUtfBmw86Y",
+    "description": "A massive battle royale and creative sandbox game.",
+    "about": "Fortnite is an online multiplayer shooter developed by Epic Games featuring battle royale, creative mode, and events.",
+    "screenshots": [],
+    "requirements": {
+      "minimum": {
+        "os": "Windows 10 64-bit",
+        "cpu": "Core i3-3225 / AMD FX-4350",
+        "gpu": "Intel HD 4000 / AMD Radeon Vega 8",
+        "memory": "8 GB RAM",
+        "storage": "30 GB"
+      },
+      "recommended": {
+        "os": "Windows 10 64-bit",
+        "cpu": "Core i5-7300U / AMD Ryzen 3 3300U",
+        "gpu": "NVIDIA GTX 960 / AMD R9 280",
+        "memory": "16 GB RAM",
+        "storage": "30 GB"
+      }
+    },
+    "age_rating": {
+      "img": "https://rating.pegi.info/assets/images/games/age_threshold_icons/12.png",
+      "title": "12+",
+      "description": "Violence"
+    },
+    "developer": "Epic Games",
+    "publisher": "Epic Games",
+    "release": "2017-07-21",
+    "genre": "Shooter,Battle-Royale"
+  },
+  "genshin-impact": {
+    "slug": "genshin-impact",
+    "title": "Genshin Impact",
+    "youtube_id": "mD4fFz1VxkY",
+    "description": "An anime-style open-world action RPG with elemental combat.",
+    "about": "Genshin Impact is an open-world action RPG developed by miHoYo, featuring a huge world, characters, and elemental combos.",
+    "screenshots": [],
+    "requirements": {
+      "minimum": {
+        "os": "Windows 7 64-bit",
+        "cpu": "Intel Core i5",
+        "gpu": "NVIDIA GT 1030",
+        "memory": "8 GB RAM",
+        "storage": "30 GB"
+      },
+      "recommended": {
+        "os": "Windows 10 64-bit",
+        "cpu": "Intel Core i7",
+        "gpu": "NVIDIA GTX 1060 6GB",
+        "memory": "16 GB RAM",
+        "storage": "30 GB"
+      }
+    },
+    "age_rating": {
+      "img": "https://rating.pegi.info/assets/images/games/age_threshold_icons/12.png",
+      "title": "12+",
+      "description": "Violence, Mild Language"
+    },
+    "developer": "miHoYo",
+    "publisher": "miHoYo",
+    "release": "2020-09-28",
+    "genre": "Action,RPG,Open-World"
+  },
+  "apex-legends": {
+    "slug": "apex-legends",
+    "title": "Apex Legends",
+    "youtube_id": "innmNewjkuk",
+    "description": "A fast-paced hero-based battle royale.",
+    "about": "Apex Legends is a free-to-play hero shooter developed by Respawn Entertainment and published by EA.",
+    "screenshots": [],
+    "requirements": {
+      "minimum": {
+        "os": "Windows 7 64-bit",
+        "cpu": "Intel i5-3570K / AMD FX-4350",
+        "gpu": "NVIDIA GTX 640 / Radeon HD 7730",
+        "memory": "6 GB RAM",
+        "storage": "56 GB"
+      },
+      "recommended": {
+        "os": "Windows 10 64-bit",
+        "cpu": "Intel i7-4790 / AMD Ryzen 5 1500X",
+        "gpu": "NVIDIA GTX 970 / Radeon R9 290",
+        "memory": "8 GB RAM",
+        "storage": "56 GB"
+      }
+    },
+    "age_rating": {
+      "img": "https://rating.pegi.info/assets/images/games/age_threshold_icons/16.png",
+      "title": "16+",
+      "description": "Violence"
+    },
+    "developer": "Respawn Entertainment",
+    "publisher": "Electronic Arts",
+    "release": "2019-02-04",
+    "genre": "Shooter,Battle-Royale"
+  },
+  "league-of-legends": {
+    "slug": "league-of-legends",
+    "title": "League of Legends",
+    "youtube_id": "BGtROJeMPeE",
+    "description": "A competitive 5v5 MOBA played by millions.",
+    "about": "League of Legends is a multiplayer online battle arena game developed and published by Riot Games.",
+    "screenshots": [],
+    "requirements": {
+      "minimum": {
+        "os": "Windows 7",
+        "cpu": "Intel Core i3",
+        "gpu": "Intel HD 4000",
+        "memory": "4 GB RAM",
+        "storage": "16 GB"
+      },
+      "recommended": {
+        "os": "Windows 10",
+        "cpu": "Intel Core i5",
+        "gpu": "NVIDIA GTX 660",
+        "memory": "8 GB RAM",
+        "storage": "16 GB"
+      }
+    },
+    "age_rating": {
+      "img": "https://rating.pegi.info/assets/images/games/age_threshold_icons/12.png",
+      "title": "12+",
+      "description": "Violence"
+    },
+    "developer": "Riot Games",
+    "publisher": "Riot Games",
+    "release": "2009-10-27",
+    "genre": "MOBA,Strategy"
+  },
+  "valheim": {
+    "slug": "valheim",
+    "title": "Valheim",
+    "youtube_id": "5fIAPcVdZO8",
+    "description": "A brutal Viking survival game set in a procedurally generated purgatory.",
+    "about": "Valheim is a survival and exploration game developed by Iron Gate Studio. You awaken in a vast Norse world where you must craft, build, battle bosses, and survive the wilderness.",
+    "screenshots": [
+      "https://cdn.akamai.steamstatic.com/steam/apps/892970/ss_f0384ac297f02c55bb42b381f2b5bc3431fb0bbf.1920x1080.jpg",
+      "https://cdn.akamai.steamstatic.com/steam/apps/892970/ss_5e170e1f2fe560ce6c2cf4f040b43e8e9cc6ce06.1920x1080.jpg",
+      "https://cdn.akamai.steamstatic.com/steam/apps/892970/ss_6a03d32e2915639d41ef2e47fc669d2280a10946.1920x1080.jpg"
+    ],
+    "requirements": {
+      "minimum": {
+        "os": "Windows 7 64-bit",
+        "cpu": "Intel Core i5-750 / AMD Athlon X4 740",
+        "gpu": "NVIDIA GTX 500 series / AMD HD 7870",
+        "memory": "8 GB RAM",
+        "storage": "1 GB"
+      },
+      "recommended": {
+        "os": "Windows 10 64-bit",
+        "cpu": "Intel Core i5-2400 / AMD Ryzen 5 1600",
+        "gpu": "NVIDIA GTX 970 / AMD RX 570",
+        "memory": "16 GB RAM",
+        "storage": "1 GB"
+      }
+    },
+    "age_rating": {
+      "img": "https://rating.pegi.info/assets/images/games/age_threshold_icons/16.png",
+      "title": "16+",
+      "description": "Violence"
+    },
+    "developer": "Iron Gate Studio",
+    "publisher": "Coffee Stain Publishing",
+    "release": "2021-02-02",
+    "genre": "Survival,Adventure,Open-World"
+  },
+  "starfield": {
+    "slug": "starfield",
+    "title": "Starfield",
+    "youtube_id": "k2pVYwKj73U",
+    "description": "A next-gen space RPG from Bethesda.",
+    "about": "Starfield is an open-universe RPG developed by Bethesda Game Studios, letting players explore star systems, build ships, and uncover mysteries of the cosmos.",
+    "screenshots": [
+      "https://cdn.akamai.steamstatic.com/steam/apps/1716740/ss_0eb7cba8c207d45b4bbf91ce5888b8c2a4f7f113.1920x1080.jpg",
+      "https://cdn.akamai.steamstatic.com/steam/apps/1716740/ss_b2eabbe6ff1571318dd43259c59e86cdc006e645.1920x1080.jpg"
+    ],
+    "requirements": {
+      "minimum": {
+        "os": "Windows 10",
+        "cpu": "AMD Ryzen 5 2600X / Intel Core i7-6800K",
+        "gpu": "AMD RX 5700 / NVIDIA GTX 1070 Ti",
+        "memory": "16 GB RAM",
+        "storage": "125 GB SSD"
+      },
+      "recommended": {
+        "os": "Windows 10/11",
+        "cpu": "AMD Ryzen 5 3600X / Intel i5-10600K",
+        "gpu": "AMD RX 6800 XT / NVIDIA RTX 2080",
+        "memory": "16 GB RAM",
+        "storage": "125 GB SSD"
+      }
+    },
+    "age_rating": {
+      "img": "https://rating.pegi.info/assets/images/games/age_threshold_icons/18.png",
+      "title": "18+",
+      "description": "Violence"
+    },
+    "developer": "Bethesda Game Studios",
+    "publisher": "Bethesda Softworks",
+    "release": "2023-09-06",
+    "genre": "Action,RPG,Open-World"
+  },
+  "monster-hunter-wild": {
+    "slug": "monster-hunter-wild",
+    "title": "Monster Hunter Wilds",
+    "youtube_id": "yoGgaYI5N6E",
+    "description": "The next generation of Monster Hunter with dynamic ecosystems.",
+    "about": "Monster Hunter Wilds is an upcoming action RPG by Capcom, evolving the series with seamless environments and improved monster behavior.",
+    "screenshots": [],
+    "requirements": {
+      "minimum": {
+        "os": "TBA",
+        "cpu": "",
+        "gpu": "",
+        "memory": "",
+        "storage": ""
+      },
+      "recommended": {
+        "os": "TBA",
+        "cpu": "",
+        "gpu": "",
+        "memory": "",
+        "storage": ""
+      }
+    },
+    "age_rating": {
+      "img": "",
+      "title": "TBA",
+      "description": ""
+    },
+    "developer": "Capcom",
+    "publisher": "Capcom",
+    "release": "2025",
+    "genre": "Action,RPG"
+  },
+  "witcher-4": {
+    "slug": "witcher-4",
+    "title": "The Witcher 4",
+    "youtube_id": "",
+    "description": "The new Witcher saga begins.",
+    "about": "The Witcher 4 (officially 'Project Polaris') is the next Witcher saga developed by CD Projekt Red using Unreal Engine 5.",
+    "screenshots": [],
+    "requirements": {
+      "minimum": {
+        "os": "",
+        "cpu": "",
+        "gpu": "",
+        "memory": "",
+        "storage": ""
+      },
+      "recommended": {
+        "os": "",
+        "cpu": "",
+        "gpu": "",
+        "memory": "",
+        "storage": ""
+      }
+    },
+    "age_rating": {
+      "img": "",
+      "title": "TBA",
+      "description": ""
+    },
+    "developer": "CD Projekt Red",
+    "publisher": "CD Projekt",
+    "release": "TBA",
+    "genre": "Action,RPG,Open-World"
+  },
+  "death-stranding": {
+    "slug": "death-stranding",
+    "title": "Death Stranding",
+    "youtube_id": "tCI396HyhbQ",
+    "description": "A mysterious open-world adventure by Hideo Kojima.",
+    "about": "Death Stranding is an action game developed by Kojima Productions featuring Sam Bridges reconnecting isolated cities in a fractured America.",
+    "screenshots": [
+      "https://cdn.akamai.steamstatic.com/steam/apps/1190460/ss_bf43e9e35b0d7abc50a4d2f7e9532a2be30b6652.1920x1080.jpg",
+      "https://cdn.akamai.steamstatic.com/steam/apps/1190460/ss_4bdf457769278e41b1a086e404f96cace180105d.1920x1080.jpg"
+    ],
+    "requirements": {
+      "minimum": {
+        "os": "Windows 10",
+        "cpu": "Intel Core i5-3470 / AMD FX-8350",
+        "gpu": "NVIDIA GTX 1050 / AMD RX 560",
+        "memory": "8 GB RAM",
+        "storage": "80 GB"
+      },
+      "recommended": {
+        "os": "Windows 10",
+        "cpu": "Intel Core i7-3770 / AMD Ryzen 5 1600",
+        "gpu": "NVIDIA GTX 1060 / AMD RX 590",
+        "memory": "8 GB RAM",
+        "storage": "80 GB"
+      }
+    },
+    "age_rating": {
+      "img": "https://rating.pegi.info/assets/images/games/age_threshold_icons/18.png",
+      "title": "18+",
+      "description": "Violence"
+    },
+    "developer": "Kojima Productions",
+    "publisher": "505 Games",
+    "release": "2020-07-14",
+    "genre": "Action,Adventure"
+  },
+  "minecraft": {
+    "slug": "minecraft",
+    "title": "Minecraft",
+    "youtube_id": "MmB9b5njVbA",
+    "description": "A sandbox world of infinite creativity.",
+    "about": "Minecraft is a survival sandbox game developed by Mojang Studios, featuring exploration, crafting, and building.",
+    "screenshots": [],
+    "requirements": {
+      "minimum": {
+        "os": "Windows 7+",
+        "cpu": "Intel i3",
+        "gpu": "Intel HD Graphics 4000",
+        "memory": "4 GB RAM",
+        "storage": "2 GB"
+      },
+      "recommended": {
+        "os": "Windows 10",
+        "cpu": "Intel i5",
+        "gpu": "NVIDIA GTX 1650",
+        "memory": "8 GB RAM",
+        "storage": "4 GB"
+      }
+    },
+    "age_rating": {
+      "img": "https://rating.pegi.info/assets/images/games/age_threshold_icons/7.png",
+      "title": "7+",
+      "description": "Mild Violence"
+    },
+    "developer": "Mojang Studios",
+    "publisher": "Mojang Studios",
+    "release": "2011-11-18",
+    "genre": "Sandbox,Survival"
+  },
+  "roblox": {
+    "slug": "roblox",
+    "title": "Roblox",
+    "youtube_id": "ZRHhZJR31Yk",
+    "description": "A massive platform of user-created games.",
+    "about": "Roblox is an online game platform and creation system developed by Roblox Corporation.",
+    "screenshots": [],
+    "requirements": {
+      "minimum": {
+        "os": "Windows 7+",
+        "cpu": "Any Dual Core",
+        "gpu": "Intel HD Graphics",
+        "memory": "4 GB RAM",
+        "storage": "5 GB"
+      },
+      "recommended": {
+        "os": "Windows 10",
+        "cpu": "Quad Core",
+        "gpu": "Dedicated GPU",
+        "memory": "8 GB RAM",
+        "storage": "5 GB"
+      }
+    },
+    "age_rating": {
+      "img": "https://rating.pegi.info/assets/images/games/age_threshold_icons/7.png",
+      "title": "7+",
+      "description": "Mild Violence"
+    },
+    "developer": "Roblox Corporation",
+    "publisher": "Roblox Corporation",
+    "release": "2006-09-01",
+    "genre": "Sandbox,Online"
+  },
+  "doom-eternal": {
+    "slug": "doom-eternal",
+    "title": "DOOM Eternal",
+    "youtube_id": "FkklG9MA0vM",
+    "description": "A brutal, fast-paced demon-slaying FPS set across Earth and Hell.",
+    "about": "DOOM Eternal is a first-person shooter developed by id Software and published by Bethesda Softworks, continuing the Slayer’s war against Hell’s armies.",
+    "screenshots": [
+      "https://cdn.akamai.steamstatic.com/steam/apps/782330/ss_1d792319ba0b45fdd0dfca6f67867ce54b492236.1920x1080.jpg",
+      "https://cdn.akamai.steamstatic.com/steam/apps/782330/ss_8b3f4c5f1c5b5a875abc50f3717b9f3ceb69c2b6.1920x1080.jpg",
+      "https://cdn.akamai.steamstatic.com/steam/apps/782330/ss_5b673a781b6c2a1752c8f4aad091c98edffea7dd.1920x1080.jpg"
+    ],
+    "requirements": {
+      "minimum": {
+        "os": "Windows 10 64-bit",
+        "cpu": "Intel Core i5-4430 / AMD Ryzen 3 1200",
+        "gpu": "NVIDIA GTX 1050 Ti / AMD RX 470",
+        "memory": "8 GB RAM",
+        "storage": "50 GB SSD"
+      },
+      "recommended": {
+        "os": "Windows 10 64-bit",
+        "cpu": "Intel Core i7-6700K / AMD Ryzen 7 1800X",
+        "gpu": "NVIDIA GTX 1080 / AMD RX Vega 56",
+        "memory": "16 GB RAM",
+        "storage": "50 GB SSD"
+      }
+    },
+    "age_rating": {
+      "img": "https://rating.pegi.info/assets/images/games/age_threshold_icons/18.png",
+      "title": "18+",
+      "description": "Extreme Violence, Gore"
+    },
+    "developer": "id Software",
+    "publisher": "Bethesda Softworks",
+    "release": "2020-03-20",
+    "genre": "Action,FPS"
+  },
+  "stalker-2": {
+    "slug": "stalker-2",
+    "title": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
+    "youtube_id": "GcO19-k513g",
+    "description": "Discover the vast Chornobyl Exclusion Zone full of dangerous enemies, deadly anomalies and powerful artifacts.",
+    "about": "S.T.A.L.K.E.R. 2: Heart of Chornobyl is a next-gen sequel to the award-winning franchise, developed by GSC Game World. Experience a unique blend of FPS, immersive sim, and horror.",
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1643320/header.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1643320/ss_be01eefeeffd72586834c2bcc1c91c1305a24480.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1643320/library_hero.jpg"
+    ],
+    "requirements": {
+      "minimum": {
+        "os": "Windows 10/11 64-bit",
+        "cpu": "AMD Ryzen 5 1600X / Intel Core i5-7600K",
+        "gpu": "AMD Radeon RX 580 8GB / NVIDIA GeForce GTX 1060 6GB",
+        "memory": "16 GB RAM",
+        "storage": "150 GB SSD"
+      },
+      "recommended": {
+        "os": "Windows 10/11 64-bit",
+        "cpu": "AMD Ryzen 7 3700X / Intel Core i7-9700K",
+        "gpu": "AMD Radeon RX 5700 XT / NVIDIA GeForce RTX 2070 SUPER",
+        "memory": "16 GB RAM",
+        "storage": "150 GB SSD"
+      }
+    },
+    "age_rating": {
+      "img": "https://rating.pegi.info/assets/images/games/age_threshold_icons/18.png",
+      "title": "18+",
+      "description": "Violence, Bad Language"
+    },
+    "developer": "GSC Game World",
+    "publisher": "GSC Game World",
+    "release": "2024-11-20",
+    "genre": "Action, FPS, Open-World"
+  },
+  "call-of-duty-black-ops-6": {
+    "slug": "call-of-duty-black-ops-6",
+    "title": "Call of Duty: Black Ops 6",
+    "youtube_id": "h0uxvKUjsj4",
+    "description": "Signature Black Ops across a cinematic single-player Campaign, a best-in-class Multiplayer experience and the epic return of Round-Based Zombies.",
+    "about": "Call of Duty: Black Ops 6 is a spy action thriller developed by Treyarch and Raven Software. Set in the early 90s, a period of transition and upheaval in global politics.",
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1938090/header.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1938090/library_hero.jpg",
+      "https://image.api.playstation.com/vulcan/ap/rnd/202405/2921/4b45cf4b319a65e05f6e4f87a22c7b91d2e7e8aeb247b61f.png"
+    ],
+    "requirements": {
+      "minimum": {
+        "os": "Windows 10 64-bit",
+        "cpu": "AMD Ryzen 5 1400 / Intel Core i5-6600",
+        "gpu": "AMD Radeon RX 470 / NVIDIA GeForce GTX 960",
+        "memory": "8 GB RAM",
+        "storage": "102 GB SSD"
+      },
+      "recommended": {
+        "os": "Windows 10/11 64-bit",
+        "cpu": "AMD Ryzen 5 1600X / Intel Core i7-6700K",
+        "gpu": "AMD Radeon RX 6600 XT / NVIDIA GeForce GTX 1080 Ti",
+        "memory": "12 GB RAM",
+        "storage": "102 GB SSD"
+      }
+    },
+    "age_rating": {
+      "img": "https://rating.pegi.info/assets/images/games/age_threshold_icons/18.png",
+      "title": "18+",
+      "description": "Extreme Violence, Strong Language"
+    },
+    "developer": "Treyarch, Raven Software",
+    "publisher": "Activision",
+    "release": "2024-10-25",
+    "genre": "Action, FPS"
+  },
+  "dragon-age-the-veilguard": {
+    "slug": "dragon-age-the-veilguard",
+    "title": "Dragon Age: The Veilguard",
+    "youtube_id": "2dGinskcoB8",
+    "description": "Enter the world of Thedas, a vibrant land of rugged wilderness, treacherous labyrinths, and glittering cities.",
+    "about": "Dragon Age: The Veilguard is an immersive single-player RPG where you become the leader others believe in. Unite the Veilguard and defy the gods.",
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1845910/header.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1845910/ss_b257d7f890ff437939e7f18fbb862709ba3beb9a.1920x1080.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1845910/library_hero.jpg"
+    ],
+    "requirements": {
+      "minimum": {
+        "os": "Windows 10/11 64-bit",
+        "cpu": "Intel Core i5-8400 / AMD Ryzen 3 3300X",
+        "gpu": "NVIDIA GTX 970 / AMD Radeon R9 290X",
+        "memory": "16 GB RAM",
+        "storage": "100 GB SSD"
+      },
+      "recommended": {
+        "os": "Windows 10/11 64-bit",
+        "cpu": "Intel Core i9-9900K / AMD Ryzen 7 3700X",
+        "gpu": "NVIDIA RTX 2070 / AMD Radeon RX 5700XT",
+        "memory": "16 GB RAM",
+        "storage": "100 GB SSD"
+      }
+    },
+    "age_rating": {
+      "img": "https://rating.pegi.info/assets/images/games/age_threshold_icons/18.png",
+      "title": "18+",
+      "description": "Violence, Mature Themes"
+    },
+    "developer": "BioWare",
+    "publisher": "Electronic Arts",
+    "release": "2024-10-31",
+    "genre": "Action, RPG"
+  },
+  "space-marine-2": {
+    "slug": "space-marine-2",
+    "title": "Warhammer 40,000: Space Marine 2",
+    "youtube_id": "zUFuhYajyuQ",
+    "description": "Embody the superhuman skill and brutality of a Space Marine, the greatest of the Emperor's warriors.",
+    "about": "Warhammer 40,000: Space Marine 2 is a third-person shooter hack-n-slash game. Hold at bay the horrors of the galaxy in epic battles on far-flung planets.",
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/header.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/library_hero.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/library_600x900_2x.jpg"
+    ],
+    "requirements": {
+      "minimum": {
+        "os": "Windows 10/11 64-bit",
+        "cpu": "AMD Ryzen 5 2600X / Intel Core i5-8600K",
+        "gpu": "AMD Radeon RX 580 / NVIDIA GeForce GTX 1060",
+        "memory": "8 GB RAM",
+        "storage": "75 GB SSD"
+      },
+      "recommended": {
+        "os": "Windows 10/11 64-bit",
+        "cpu": "AMD Ryzen 7 5800X / Intel Core i7-12700",
+        "gpu": "AMD Radeon RX 6800 XT / NVIDIA GeForce RTX 3070",
+        "memory": "16 GB RAM",
+        "storage": "75 GB SSD"
+      }
+    },
+    "age_rating": {
+      "img": "https://rating.pegi.info/assets/images/games/age_threshold_icons/18.png",
+      "title": "18+",
+      "description": "Violence, Gore"
+    },
+    "developer": "Saber Interactive",
+    "publisher": "Focus Entertainment",
+    "release": "2024-09-09",
+    "genre": "Action, Adventure, TPS"
+  },
+  "black-myth-wukong": {
+    "slug": "black-myth-wukong",
+    "title": "Black Myth: Wukong",
+    "youtube_id": "VUlzltBX3Ac",
+    "description": "An action RPG rooted in Chinese mythology. You shall set out as the Destined One to venture into the challenges and marvels ahead.",
+    "about": "Black Myth: Wukong is an action RPG developed by Game Science, based on the classic Chinese novel Journey to the West. It features stunning visuals and fast-paced combat.",
+    "screenshots": [
+      "https://4kwallpapers.com/images/wallpapers/black-myth-wukong-3840x2160-17948.jpeg",
+      "https://scontent.fmaa6-1.fna.fbcdn.net/v/t39.30808-6/470208208_122126485430552765_8533642577651833195_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=24zxMmjjVh0Q7kNvwFhREs5&_nc_oc=AdkSv-D5j8cb-BCfb25J6rjQwrO6PnRr00Lt9tPtQ1DRmPN-oabGhGPMkycdSrNQanU&_nc_zt=23&_nc_ht=scontent.fmaa6-1.fna&_nc_gid=UwVzSb7Rk_ZTNoIStD1xVQ&oh=00_Afgfe7Cc8NMMCh1SuAyodmRUdDN4BbmSj0ScWXwjMq16jQ&oe=692D22EC",
+      "https://cdn.mos.cms.futurecdn.net/FCY9PcBrhN3pfoNV7FfFTQ.jpg"
+    ],
+    "requirements": {
+      "minimum": {
+        "os": "Windows 10 64-bit",
+        "cpu": "Intel Core i5-8400 / AMD Ryzen 5 1600",
+        "gpu": "NVIDIA GeForce GTX 1060 / AMD Radeon RX 580",
+        "memory": "16 GB RAM",
+        "storage": "130 GB SSD"
+      },
+      "recommended": {
+        "os": "Windows 10 64-bit",
+        "cpu": "Intel Core i7-9700 / AMD Ryzen 5 5500",
+        "gpu": "NVIDIA GeForce RTX 2060 / AMD Radeon RX 5700 XT",
+        "memory": "16 GB RAM",
+        "storage": "130 GB SSD"
+      }
+    },
+    "age_rating": {
+      "img": "https://rating.pegi.info/assets/images/games/age_threshold_icons/18.png",
+      "title": "18+",
+      "description": "Violence, Gore"
+    },
+    "developer": "Game Science",
+    "publisher": "Game Science",
+    "release": "2024-08-20",
+    "genre": "Action, RPG"
+  },
+  "helldivers-2": {
+    "slug": "helldivers-2",
+    "title": "Helldivers 2",
+    "youtube_id": "GJPYvBFvkB4",
+    "description": "The Galaxy's Last Line of Offence. Enlist in the Helldivers and join the fight for freedom across a hostile galaxy.",
+    "about": "Helldivers 2 is a 3rd person squad-based shooter developed by Arrowhead Game Studios. Join forces with up to 4 friends and wreak havoc on an alien scourge threatening the safety of Super Earth.",
+    "screenshots": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/header.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/library_hero.jpg",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/library_600x900_2x.jpg"
+    ],
+    "requirements": {
+      "minimum": {
+        "os": "Windows 10 64-bit",
+        "cpu": "Intel Core i7-4790K / AMD Ryzen 5 1500X",
+        "gpu": "NVIDIA GeForce GTX 1050 Ti / AMD Radeon RX 470",
+        "memory": "8 GB RAM",
+        "storage": "100 GB"
+      },
+      "recommended": {
+        "os": "Windows 10 64-bit",
+        "cpu": "Intel Core i7-9700K / AMD Ryzen 7 3700X",
+        "gpu": "NVIDIA GeForce RTX 2060 / AMD Radeon RX 6600 XT",
+        "memory": "16 GB RAM",
+        "storage": "100 GB SSD"
+      }
+    },
+    "age_rating": {
+      "img": "https://rating.pegi.info/assets/images/games/age_threshold_icons/18.png",
+      "title": "18+",
+      "description": "Intense Violence, Blood and Gore"
+    },
+    "developer": "Arrowhead Game Studios",
+    "publisher": "PlayStation Publishing",
+    "release": "2024-02-08",
+    "genre": "Action, Shooter, Co-op"
+  }
+}

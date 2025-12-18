@@ -1,0 +1,248 @@
+[
+  {
+    "title": "Ghost Of Yotei",
+    "img": "https://wallpaperswide.com/download/ghost_of_yotei_2025_video_game-wallpaper-1920x1080.jpg",
+    "rating": "4.5",
+    "link": "./Gamepage/game.html?game=ghost-of-yotei"
+  },
+  {
+    "title": "Avatar Frontiers Of Pandora",
+    "img": "https://wallpaperswide.com/download/avatar_frontiers_of_pandora__from_the_ashes_2025_video_game-wallpaper-1920x1080.jpg",
+    "rating": "4.5",
+    "link": "./Gamepage/game.html?game=avatar-frontiers-of-pandora"
+  },
+  {
+    "title": "Hollow Knight: Silksong",
+    "img": "https://wallpaperswide.com/download/hollow_knight_silksong_hornet_2025_video_game-wallpaper-1920x1080.jpg",
+    "rating": "4.5",
+    "link": "./Gamepage/game.html?game=hollow-knight-silksong"
+  },
+  {
+    "title": "Gta 6",
+    "img": "https://wallpaperswide.com/download/grand_theft_auto_vi_2025_video_game___gta_6-wallpaper-1920x1080.jpg",
+    "rating": "4.5",
+    "link": "./Gamepage/game.html?game=gta-6"
+  },
+  {
+    "title": "Hollow Knight",
+    "img": "https://upload.wikimedia.org/wikipedia/en/thumb/0/04/Hollow_Knight_first_cover_art.webp/250px-Hollow_Knight_first_cover_art.webp.png",
+    "rating": "4.5",
+    "link": "./Gamepage/game.html?game=hollow-knight-silksong"
+  },
+  {
+    "title": "Ghost Of Tushima",
+    "img": "https://cdn1.epicgames.com/offer/6e6aa039c73347b885803de65ac5d3db/EGS_GhostofTsushima_SuckerPunchProductions_S2_1200x1600-e23e02c1d70be7b528dba50860f87d39",
+    "rating": "4.5",
+    "link": "./Gamepage/game.html?game=ghost-of-tsushima"
+  },
+  {
+    "title": "NieR: Automata",
+    "img": "https://u-mercari-images.mercdn.net/photos/m25554037201_4.jpg",
+    "rating": "4.5",
+    "link": "./Gamepage/game.html?game=nier-automata"
+  },
+  {
+    "title": "Grand Theft Auto V: Enhanced",
+    "img": "https://media-rockstargames-com.akamaized.net/rockstargames-newsite/img/global/games/fob/1280/GTAOnline.jpg",
+    "rating": "4.8",
+    "link": "./Gamepage/game.html?game=gta-5-enhanced"
+  },
+  {
+    "title": "Grand Theft Auto V: Legacy",
+    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/271590/library_600x900_2x.jpg",
+    "rating": "4.7",
+    "link": "./Gamepage/game.html?game=gta-5-legacy"
+  },
+  {
+    "title": "GTA Triology Definitive Edition",
+    "img": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7f/Grand_Theft_Auto_-_The_Trilogy_-_The_Definitive_Edition.jpg/250px-Grand_Theft_Auto_-_The_Trilogy_-_The_Definitive_Edition.jpg",
+    "rating": "4.5",
+    "link": "./Gamepage/game.html?game=gta-trilogy-definitive-edition"
+  },
+  {
+    "title": "Cyberpunk 2077",
+    "img": "https://upload.wikimedia.org/wikipedia/en/9/9f/Cyberpunk_2077_box_art.jpg",
+    "rating": "4.5",
+    "link": "./Gamepage/game.html?game=cyberpunk-2077"
+  },
+  {
+    "title": "Elden Ring",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvvxkQxi2rPJ5DPRF25REQqK_SnHfzjrgibR48ZdMEHGZBwC_KnFpZ4H7rjQT8x7koT10i&s=10",
+    "rating": "4.5",
+    "link": "./Gamepage/game.html?game=elden-ring"
+  },
+  {
+    "title": "Red Dead Redemption 2",
+    "img": "https://assets.vg247.com/current//2018/05/red_dead_redemption_2_cover_art_1.jpg",
+    "rating": "4.5",
+    "link": "./Gamepage/game.html?game=rdr2"
+  },
+  {
+    "title": "The Witcher 3",
+    "img": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0c/Witcher_3_cover_art.jpg/250px-Witcher_3_cover_art.jpg",
+    "rating": "4.5",
+    "link": "./Gamepage/game.html?game=witcher-3"
+  },
+  {
+    "title": "Halo Infinite",
+    "img": "https://imageio.forbes.com/specials-images/imageserve/5f19afb531a9833d9fbc3177/0x0.jpg",
+    "rating": "4.5",
+    "link": "./Gamepage/game.html?game=halo-infinite"
+  },
+  {
+    "title": "Doom Eternal",
+    "img": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9d/Cover_Art_of_Doom_Eternal.png/250px-Cover_Art_of_Doom_Eternal.png",
+    "rating": "4.5",
+    "link": "./Gamepage/game.html?game=doom-eternal"
+  },
+  {
+    "title": "Forza Horizon 5",
+    "img": "https://cdn.theouterhaven.net/wp-content/uploads/2021/08/E4HHJZkXMAswau7.jpg",
+    "rating": "4.5",
+    "link": "./Gamepage/game.html?game=forza-horizon-5"
+  },
+  {
+    "title": "Resident Evil 4 Remake",
+    "img": "https://upload.wikimedia.org/wikipedia/en/d/df/Resident_Evil_4_remake_cover_art.jpg",
+    "rating": "4.5",
+    "link": "./Gamepage/game.html?game=resident-evil-4-remake"
+  },
+  {
+    "title": "Diablo IV",
+    "img": "https://store-images.s-microsoft.com/image/apps.27418.14332794193050832.739974d2-f1c8-499c-8284-db79b2d691a4.1a1b4150-489e-46e8-925a-4d9e78f5b000?w=400&h=600",
+    "rating": "4.5",
+    "link": "./Gamepage/game.html?game=diablo-iv"
+  },
+  {
+    "title": "Starfield",
+    "img": "https://preview.redd.it/its-often-overlooked-but-i-really-love-the-cover-art-for-v0-cv5gqmjzutod1.png?width=640&crop=smart&auto=webp&s=91ebb0b72a760cab08d15c3576beb71f6a9e5043",
+    "rating": "4.5",
+    "link": "./Gamepage/game.html?game=starfield"
+  },
+  {
+    "title": "Baldur's Gate 3",
+    "img": "https://i.redd.it/m2lmw222h0ka1.png",
+    "rating": "4.5",
+    "link": "./Gamepage/game.html?game=baldurs-gate-3"
+  },
+  {
+    "title": "Elden Ring: Shadow of the Erdtree",
+    "img": "https://static.wikia.nocookie.net/eldenring/images/0/00/ER_SOTE_Japanese_Poster.jpg",
+    "rating": "4.5",
+    "link": "./Gamepage/game.html?game=elden-ring"
+  },
+  {
+    "title": "Hogwarts Legacy",
+    "img": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0b/Hogwarts_legacyboxart.svg/800px-Hogwarts_legacyboxart.svg.png",
+    "rating": "4.5",
+    "link": "./Gamepage/game.html?game=hogwarts-legacy"
+  },
+  {
+    "title": "Cyberpunk 2077 (Ultimate Edition)",
+    "img": "https://howlongtobeat.com/games/141056_Cyberpunk_2077_Ultimate_Edition.jpg?width=760",
+    "rating": "4.5",
+    "link": "./Gamepage/game.html?game=cyberpunk-2077"
+  },
+  {
+    "title": "Fortnite",
+    "img": "https://cdn1.epicgames.com/offer/fn/EN_FNFigment_37-00_C1S6_EGS_Launcher_KeyArt_Blade_1200x1600_1200x1600-47bcc2460eec25bf410a71d3449585d2?resize=1&w=360&h=480&quality=medium",
+    "rating": "4.5",
+    "link": "./Gamepage/game.html?game=fortnite"
+  },
+  {
+    "title": "Genshin Impact",
+    "img": "https://cdn1.epicgames.com/offer/879b0d8776ab46a59a129983ba78f0ce/genshintall_1200x1600-4a5697be3925e8cb1f59725a9830cafc",
+    "rating": "4.5",
+    "link": "./Gamepage/game.html?game=genshin-impact"
+  },
+  {
+    "title": "Apex Legends",
+    "img": "https://upload.wikimedia.org/wikipedia/en/d/db/Apex_legends_cover.jpg",
+    "rating": "4.5",
+    "link": "./Gamepage/game.html?game=apex-legends"
+  },
+  {
+    "title": "League of Legends",
+    "img": "https://sm.ign.com/ign_in/cover/l/league-of-/league-of-legends-wild-rift_yxqa.jpg",
+    "rating": "4.5",
+    "link": "./Gamepage/game.html?game=league-of-legends"
+  },
+  {
+    "title": "Valheim",
+    "img": "https://preview.redd.it/cb6vhjj30ap61.gif?format=png8&s=7fede5f0fb30bd3aa14dfdb16eb56e8e8412dedc",
+    "rating": "4.5",
+    "link": "./Gamepage/game.html?game=valheim"
+  },
+  {
+    "title": "Grand Theft Auto VI",
+    "img": "https://upload.wikimedia.org/wikipedia/en/4/46/Grand_Theft_Auto_VI.png",
+    "rating": "4.5",
+    "link": "./Gamepage/game.html?game=gta-6"
+  },
+  {
+    "title": "Starfield DLC: Shattered Space",
+    "img": "https://upload.wikimedia.org/wikipedia/en/c/c5/Starfield_Shattered_Space_cover_art.png",
+    "rating": "4.5",
+    "link": "./Gamepage/game.html?game=starfield"
+  },
+  {
+    "title": "Monster Hunter Wilds",
+    "img": "https://upload.wikimedia.org/wikipedia/en/thumb/5/52/Monster_Hunter_Wilds_cover.png/250px-Monster_Hunter_Wilds_cover.png",
+    "rating": "4.5",
+    "link": "./Gamepage/game.html?game=monster-hunter-wild"
+  },
+  {
+    "title": "The Witcher 4",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTg8RDqqp3n78YPdvMzZE3A6SZj_9IARdLMg&s",
+    "rating": "4.5",
+    "link": "./Gamepage/game.html?game=witcher-4"
+  },
+  {
+    "title": "Death Stranding",
+    "img": "https://upload.wikimedia.org/wikipedia/en/2/22/Death_Stranding.jpg",
+    "rating": "4.5",
+    "link": "./Gamepage/game.html?game=death-stranding"
+  },
+  {
+    "title": "Hades II",
+    "img": "https://static.wikia.nocookie.net/hades_gamepedia_en/images/9/9f/H2_PackArt_600px.png",
+    "rating": "4.5",
+    "link": "./Gamepage/game.html?game=hades-ii"
+  },
+  {
+    "title": "Ori and the Will of the Wisps",
+    "img": "https://upload.wikimedia.org/wikipedia/en/9/94/Ori_and_the_Will_of_the_Wisps.jpg",
+    "rating": "4.5",
+    "link": "./Gamepage/game.html?game=ori-and-the-will-of-the-wisps"
+  },
+  {
+    "title": "No Man's Sky",
+    "img": "https://upload.wikimedia.org/wikipedia/en/6/67/No_Man%27s_Sky.jpg",
+    "rating": "4.5",
+    "link": "./Gamepage/game.html?game=no-mans-sky"
+  },
+  {
+    "title": "Minecraft",
+    "img": "https://mediaproxy.tvtropes.org/width/1200/https://static.tvtropes.org/pmwiki/pub/images/minecraft_poster.png",
+    "rating": "4.5",
+    "link": "./Gamepage/game.html?game=minecraft"
+  },
+  {
+    "title": "Inside",
+    "img": "https://upload.wikimedia.org/wikipedia/en/5/50/INSIDE_Xbox_One_cover_art.png",
+    "rating": "4.5",
+    "link": "./Gamepage/game.html?game=inside"
+  },
+  {
+    "title": "Celeste",
+    "img": "https://cloudfront-us-east-1.images.arcpublishing.com/deseretnews/GZ4LKXJE4PMGZKFYYC54EKFV3I.jpg",
+    "rating": "4.5",
+    "link": "./Gamepage/game.html?game=celeste"
+  },
+  {
+    "title": "Journey",
+    "img": "https://m.media-amazon.com/images/I/71JcpY5ULUL._AC_UF1000,1000_QL80_.jpg",
+    "rating": "4.5",
+    "link": "./Gamepage/game.html?game=journey"
+  }
+]

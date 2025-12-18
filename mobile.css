@@ -1,0 +1,734 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Rajdhani:wght@400;600&family=Roboto:wght@300;400;700&display=swap');
+
+.orbitron {
+    font-family: 'Orbitron', sans-serif !important;
+}
+
+@font-face {
+    font-family: 'Robus';
+    src: url('./Fonts/Fun Games.otf') format('opentype'),
+}
+
+@font-face {
+    font-family: 'Rostex';
+    src: url('./Fonts/Rostex.otf') format('opentype'),
+}
+
+@font-face {
+    font-family: 'Deltha';
+    src: url('./Fonts/Deltha.otf') format('opentype'),
+}
+
+@font-face {
+    font-family: 'Aquatico';
+    src: url('./Fonts/Aquatico.otf') format('opentype'),
+}
+
+@font-face {
+    font-family: 'Kano';
+    src: url('./Fonts/Kano.otf') format('opentype'),
+}
+
+.aquatico {
+    font-family: Aquatico;
+}
+
+.deltha {
+    font-family: Deltha;
+}
+
+.kano {
+    font-family: Kano;
+}
+
+.robus {
+    font-family: Robus;
+}
+
+#video-background-mobile,
+#video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+    filter: brightness(0.5);
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
+
+#myNavbar {
+    transition: background-color 0.5s linear;
+}
+
+#myNavbar.scrolled {
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(8px);
+}
+
+.nav-items {
+    color: white;
+    font-family: Deltha;
+    font-size: small;
+}
+
+.nav-items:hover {
+    text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.25);
+}
+
+.brand-text {
+    filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.8));
+
+    /* Logic for hiding/showing */
+    max-width: 0;
+    /* Start with 0 width */
+    opacity: 0;
+    /* Start invisible */
+    overflow: hidden;
+    /* Hide overflow content */
+    white-space: nowrap;
+    /* Keep text on one line */
+    margin-left: 0;
+    /* No margin initially */
+
+    /* Smooth transition settings */
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.navbar-brand {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    /* Inline styles from your snippet preserved/moved here for cleanliness */
+    filter: drop-shadow(0 0 5px rgb(0, 72, 255));
+    color: #fff;
+    font-family: 'Robus', sans-serif;
+    /* Fallback added */
+    font-size: x-large;
+    cursor: pointer;
+    padding: 10px;
+    /* Added some hit area padding */
+}
+
+/* Icon Styles */
+.navbar-brand i {
+    font-size: 1.5rem;
+    /* Removed margin-top to let flexbox center it properly */
+    filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.8));
+    transition: transform 0.3s ease;
+}
+
+.navbar-brand:hover .brand-text {
+    max-width: 150px;
+    /* Expand width to reveal text */
+    opacity: 1;
+    /* Fade in */
+    margin-left: 10px;
+    /* Add spacing between icon and text */
+}
+
+/* Optional: Rotate icon slightly on hover for extra flair */
+.navbar-brand:hover i {
+    transform: rotate(15deg);
+}
+
+.nav-items {
+    color: white;
+    font-family: Deltha;
+    font-size: small;
+}
+
+.nav-items:hover {
+    text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.25);
+}
+
+#corousel {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+/* Scroll bar */
+
+#game-row {
+    /* This rule is for Firefox */
+    scrollbar-width: none;
+    /* This rule is for Internet Explorer and old Edge */
+    -ms-overflow-style: none;
+}
+
+/* This rule is for Chrome, Safari, and new Edge */
+#game-row::-webkit-scrollbar {
+    display: none;
+}
+
+/* Styling for dynamically generated shelf items */
+.shelves-items-row {
+    position: relative;
+    transition: all 300ms linear;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.shelves-items-row:hover,
+.shelves-items-row:active {
+    background-color: rgba(255, 255, 255, 0.25);
+    border-radius: 10px;
+    filter: drop-shadow(0px 0px 10px rgba(255, 255, 255, 0.25));
+    position: relative;
+    z-index: 10;
+    transform: scale(1.05);
+    transition: transform;
+    transition-timing-function: linear;
+    transition-duration: 300ms;
+}
+
+#hr-shelves {
+    border-top: 0.5px solid rgba(255, 255, 255, 0.1);
+    margin: 6px;
+    display: none;
+}
+
+body {
+    margin: 0;
+    padding-top: 80px;
+    overflow-x: hidden;
+    height: 100vh;
+    font-family: "Nunito", sans-serif !important;
+}
+
+#auto-scroll-items {
+    box-shadow: 1px 1px 5px black;
+}
+
+#auto-scroll-items:hover,
+#auto-scroll-items:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    transition-property: transform;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    filter: drop-shadow(0px 0px 30px rgba(255, 255, 255, 0.3));
+    backdrop-filter: blur(10px);
+}
+
+#Stories {
+    box-shadow: 1px 1px 5px black;
+}
+
+#Stories:hover,
+#Stories:active {
+    transform: scale(1.02);
+    transition-property: transform;
+    transition-timing-function: linear;
+    transition-duration: 150ms;
+}
+
+#bounce :hover,
+#bounce :active {
+    text-shadow: 0px 0px 5px white;
+}
+
+#hide-mobile {
+    display: none;
+}
+
+/* center fix for nav items on all breakpoints */
+.navbar-nav.mx-auto {
+    gap: .25rem;
+}
+
+/* Hover dropdown: show menu on pointer hover, but clicks still work on touch */
+@media (active: active) and (pointer: fine) {
+    .navbar .nav-item.dropdown:hover>.dropdown-menu {
+        display: block;
+    }
+}
+
+/* small visual tweaks */
+.navbar .dropdown-menu {
+    margin-top: .25rem;
+    border-radius: .5rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(8px);
+}
+
+.navbar .nav-link {
+    padding-left: .9rem;
+    padding-right: .9rem;
+}
+
+#dropdown {
+    color: rgba(255, 255, 255, 0.75) !important;
+    border: 0px solid;
+}
+
+#dropdown:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 8px;
+}
+
+/* Footer */
+
+.glass-footer {
+    background: rgba(33, 37, 41, 0.5);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    color: #b0b0b0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 15px;
+    margin-top: auto;
+}
+
+.footer-heading {
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+    position: relative;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: 'robus', sans-serif;
+}
+
+.footer-list {
+    list-style: none;
+    padding: 12px;
+}
+
+.footer-list li {
+    margin-bottom: 10px;
+}
+
+.footer-link-item {
+    text-align: center !important;
+    color: #b0b0b0;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    display: inline-block;
+    font-family: 'Deltha', sans-serif;
+    font-size: 0.75rem;
+}
+
+.footer-link-item i {
+    width: 20px;
+    text-align: center;
+    margin-right: 5px;
+    color: inherit;
+    transition: color 0.3s ease;
+}
+
+.footer-link-item:hover {
+    color: #fff !important;
+    transform: translateX(5px);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+}
+
+.footer-link-item:hover i {
+    color: #fff;
+}
+
+.footer-brand {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+    font-family: 'robus', sans-serif;
+}
+
+.social-icon-item {
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    border-radius: 50%;
+    margin-right: 10px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    animation: sequential-glow 3s infinite ease-in-out;
+}
+
+.social-icon-item:hover,
+.social-icon-item:active {
+    background: #0dd9fd !important;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(13, 205, 253, 0.5);
+    color: #fff;
+}
+
+.social-icon-item:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.social-icon-item:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+.social-icon-item:nth-child(3) {
+    animation-delay: 0.4s;
+}
+
+@keyframes sequential-glow {
+
+    0%,
+    100% {
+        background: rgba(255, 255, 255, 0.1);
+        transform: translateY(0);
+        box-shadow: none;
+    }
+
+    15% {
+        /* Peak Glow State matching your hover styles */
+        background: #0dd9fd;
+        transform: translateY(-3px);
+        box-shadow: 0 5px 15px rgba(13, 205, 253, 0.5);
+    }
+
+    30% {
+        /* Return to normal quickly */
+        background: rgba(255, 255, 255, 0.1);
+        transform: translateY(0);
+        box-shadow: none;
+    }
+}
+
+.glass-input {
+    background: rgba(255, 255, 255, 0.1) !important;
+    border: 1px solid rgba(255, 255, 255, 0.2) !important;
+    color: white !important;
+    backdrop-filter: blur(5px);
+}
+
+.glass-input::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.glass-input:focus {
+    background: rgba(255, 255, 255, 0.15) !important;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+}
+
+.copyright-bar {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 20px 0;
+    margin-top: 40px;
+    font-size: 0.9rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+/* Footer */
+
+#footer-logo {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    filter: drop-shadow(0 0 5px rgb(0, 72, 255));
+    color: #fff;
+    font-size: x-large;
+    cursor: pointer;
+    padding: 10px;
+}
+
+/* Icon Styles scoped to footer-logo */
+#footer-logo i {
+    font-size: 2rem;
+    margin-right: 8px;
+    filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.8));
+    /* Animation applied here */
+    animation: icon-dance 4s ease-in-out infinite;
+    /* Layering for the "behind" effect */
+    position: relative;
+    z-index: 2;
+}
+
+#footer-logo .brand-text {
+    filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.8));
+    overflow: hidden;
+    white-space: nowrap;
+    /* Animation applied here */
+    animation: text-reveal 4s ease-in-out infinite;
+    /* Layering for the "behind" effect */
+    position: relative;
+    z-index: 1;
+}
+
+@keyframes text-reveal {
+
+    0%,
+    10% {
+        max-width: 0;
+        opacity: 0;
+        margin-left: 0;
+        transform: translateX(-30px);
+        /* Start pulled behind the icon */
+    }
+
+    40%,
+    70% {
+        /* Hold the open state for a moment */
+        max-width: 120px;
+        opacity: 1;
+        transform: translateX(0);
+        /* Slide out to normal position */
+    }
+
+    90%,
+    100% {
+        max-width: 0;
+        opacity: 0;
+        margin-left: 0;
+        transform: translateX(-30px);
+        /* Slide back behind */
+    }
+}
+
+@keyframes icon-dance {
+
+    0%,
+    10% {
+        transform: rotate(0deg);
+    }
+
+    40%,
+    70% {
+        transform: rotate(15deg);
+    }
+
+    90%,
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+/* Glassmorphism Logic */
+.glass-card {
+    background-color: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 1rem;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    transition: all 0.3s ease;
+}
+
+.glass-card-darker {
+    background-color: rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(16px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 1rem;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+
+#Right-bar {
+    padding: 10px;
+}
+
+.shelves-items-row {
+    padding: 5px;
+    margin: 0 !important;
+}
+
+#trending-list img {
+    width: 80px !important;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+#trending-box {
+    padding: 24px !important;
+}
+
+#page {
+    padding: 10px 32px !important;
+}
+
+#mobile-shelves {
+    margin: 0 !important;
+    padding: 0px !important;
+}
+
+/* mobile-friendly search results */
+
+#searchResults {
+    background: rgba(0, 0, 0, 0.75);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    position: fixed !important;
+    z-index: 20000 !important;
+    display: none;
+    /* keep hidden by default */
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.6);
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+/* MOBILE: force brand icon centered & kill brand-text jump */
+@media (max-width: 767px) {
+
+    /* make brand a true flex item and vertically center */
+    .navbar-brand {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: flex-start;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+        line-height: 1;
+    }
+
+    /* ensure icon vertically centered */
+    .navbar-brand i {
+        margin: 0;
+        display: block;
+        align-self: center;
+        font-size: 1.4rem;
+        position: absolute;
+        left: 8vw;
+    }
+
+    /* completely hide animated brand text on mobile and disable animations */
+    .brand-text,
+    .navbar-brand .brand-text,
+    #footer-logo .brand-text {
+        display: none !important;
+        opacity: 0 !important;
+        max-width: 0 !important;
+        transform: none !important;
+        transition: none !important;
+        animation: none !important;
+    }
+
+    /* defensive: if some rule is pushing it up, lock alignment */
+    .navbar-toggler,
+    #nav-search-form,
+    .navbar-collapse {
+        align-self: center !important;
+    }
+
+    /* small tweak if the icon still looks slightly high */
+    #myNavbar .container-fluid {
+        align-items: center !important;
+        height: 58px;
+        /* keep locked height */
+    }
+
+    #nav-search-form {
+        position: absolute;
+        right: 17vw;
+    }
+}
+
+/* Glass shine effect */
+
+@keyframes shine {
+    0% {
+        left: -150%;
+    }
+
+    20%,
+    100% {
+        left: 150%;
+    }
+}
+
+.glass-shine {
+    position: relative;
+    overflow: hidden;
+}
+
+.glass-shine::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -150%;
+    width: 80%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.1), transparent);
+    transform: skewX(-25deg);
+    animation: shine 6s infinite;
+    pointer-events: none;
+}
+
+/* MOBILE NAV GLASS FIX — enables real backdrop blur */
+@media (max-width: 767px) {
+
+    /* NAVBAR: match .scrolled (rgba(0,0,0,0.5) + blur(8px)) */
+    #myNavbar {
+        background-color: rgba(0, 0, 0, 0.5) !important;
+        -webkit-backdrop-filter: blur(8px) !important;
+        backdrop-filter: blur(8px) !important;
+        -webkit-background-clip: padding-box !important;
+        background-clip: padding-box !important;
+        transform: translateZ(0) !important;
+        height: 80px !important;
+        z-index: 40000 !important;
+    }
+
+    /* MOBILE MENU DROPDOWN (fully blurred glass under navbar) */
+    #navbarTogglerDemo03 {
+        position: absolute !important;
+        top: 80px !important;
+        left: 0;
+        right: 0;
+        background-color: rgba(0, 0, 0, 0.35) !important;
+        /* must be non-transparent */
+        -webkit-backdrop-filter: blur(8px) !important;
+        /* iOS/Safari */
+        backdrop-filter: blur(8px) !important;
+        /* Chrome/etc */
+        -webkit-background-clip: padding-box !important;
+        background-clip: padding-box !important;
+        transform: translateZ(0) !important;
+        /* new stacking context */
+        will-change: backdrop-filter, transform !important;
+        z-index: 39000 !important;
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06) !important;
+        padding-bottom: 12px !important;
+    }
+
+    /* MENU ITEMS: stay transparent (don’t override blur) */
+    #navbarTogglerDemo03 .navbar-nav,
+    #navbarTogglerDemo03 .nav-link,
+    .dropdown-menu {
+        background: transparent !important;
+        backdrop-filter: none !important;
+        -webkit-backdrop-filter: none !important;
+    }
+
+    /* Ensure the toggler matches navbar height + keeps blur visible */
+    .navbar-toggler {
+        background: transparent !important;
+        height: 40px !important;
+        z-index: 41000 !important;
+    }
+
+    /* VIDEO FIX — required for backdrop-filter to actually work */
+    #video-background,
+    #video-background-mobile {
+        transform: none !important;
+        -webkit-transform: none !important;
+        backface-visibility: hidden !important;
+        will-change: opacity !important;
+    }
+}

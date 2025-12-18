@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+        <link rel="shortcut icon" href="./Images/logo.png" type="image/x-icon">
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./desktop.css">
+
+    <style>
+        :root {
+            --glass-bg: rgba(255, 255, 255, 0.1);
+            --glass-border: rgba(255, 255, 255, 0.2);
+            --glass-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+            /* Updated: Pink theme for Desktop/PC default */
+            --primary-color: #ff3392d0;
+        }
+
+        body {
+            font-family: 'Nunito', sans-serif;
+            min-height: 100vh;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 15px;
+            /* Fallback gradient if video is missing */
+            background: linear-gradient(45deg, #151316, #151316);
+        }
+
+        /* Optimization for short screens (Landscape Mobile, 21:9 Ultrawide) 
+           Ensures content isn't clipped at the top when scrolling */
+        @media (max-height: 750px),
+        (aspect-ratio: 21/9) {
+            body {
+                align-items: flex-start;
+                padding-top: 40px;
+                padding-bottom: 40px;
+            }
+        }
+
+        /* Video Background Styles */
+        #video-background,
+        #video-background-mobile {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+            filter: brightness(0.75);
+        }
+
+        /* Default (Desktop) - Hide mobile video */
+        #video-background-mobile {
+            display: none;
+        }
+
+        /* Mobile View - Switch videos AND Colors */
+        @media (max-width: 768px) {
+
+            /* Updated: Sky Blue theme for Mobile */
+            :root {
+                --primary-color: #006b8f;
+            }
+
+            #video-background {
+                display: none;
+            }
+
+            #video-background-mobile {
+                display: block;
+            }
+
+            .btn-login:hover {
+                color: #0098c2d0 !important;
+            }
+
+            .form-check-input {
+                position: relative;
+                top: -0.3em;
+            }
+        }
+
+        /* The Glass Card */
+        .glass-card {
+            background: var(--glass-bg);
+            backdrop-filter: blur(8px);
+            -webkit-backdrop-filter: blur(8px);
+            border: 1px solid var(--glass-border);
+            border-radius: 16px;
+            box-shadow: var(--glass-shadow);
+            color: white;
+            padding: 40px;
+            width: 100%;
+            max-width: 400px;
+            transition: all 0.3s ease;
+            margin: auto;
+        }
+
+        /* Desktop split view adjustments */
+        @media (min-width: 768px) {
+            .glass-card {
+                max-width: 850px;
+                padding: 50px;
+            }
+
+            /* Add a subtle separator border on desktop only */
+            .border-md-right {
+                border-right: 1px solid rgba(255, 255, 255, 0.1);
+            }
+        }
+
+        /* Mobile adjustments for the card */
+        @media (max-width: 576px) {
+            .glass-card {
+                padding: 25px 20px;
+            }
+
+            h2 {
+                font-size: 1.5rem;
+            }
+        }
+
+        .glass-card:hover {
+            transform: translateY(-5px);
+        }
+
+        /* Typography */
+        h2 {
+            font-weight: 600;
+            letter-spacing: 1px;
+            margin-bottom: 10px;
+        }
+
+        p.subtitle {
+            font-size: 0.9rem;
+            opacity: 0.8;
+            margin-bottom: 30px;
+        }
+
+        /* Input Styling */
+        .form-control {
+            background: rgba(255, 255, 255, 0.2);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            color: white;
+            padding: 12px 15px;
+            border-radius: 8px;
+        }
+
+        .form-control::placeholder {
+            color: rgba(255, 255, 255, 0.7);
+        }
+
+        .form-control:focus {
+            background: rgba(255, 255, 255, 0.3);
+            border-color: rgba(255, 255, 255, 0.5);
+            box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.1);
+            color: white;
+        }
+
+        .form-check-input {
+            background-color: rgba(255, 255, 255, 0.2);
+            border: 1px solid rgba(255, 255, 255, 0.5);
+            border-radius: 50% !important;
+            width: 1.2em;
+            height: 1.2em;
+            margin-right: 10px;
+            cursor: pointer;
+            transition: all 0.2s ease-in-out;
+            position: relative;
+            top: -0.1em;
+        }
+
+        .form-check-input:checked {
+            background-color: var(--primary-color);
+            border-color: var(--primary-color);
+            box-shadow: 0 0 10px var(--primary-color);
+            /* Add a glow effect */
+        }
+
+        /* Custom Floating Labels adjustment if needed, 
+           but simplified standard inputs often look cleaner on glass */
+
+        .input-group-text {
+            background: rgba(255, 255, 255, 0.2);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            color: white;
+            border-right: none;
+        }
+
+        /* Button Styling */
+        .btn-login {
+            background: white;
+            color: var(--primary-color);
+            font-weight: 600;
+            border: none;
+            padding: 12px;
+            border-radius: 8px;
+            width: 100%;
+            margin-top: 20px;
+            transition: all 0.3s ease;
+        }
+
+        .btn-login:hover {
+            background: #f0f0f0;
+            transform: scale(1.02);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Links */
+        .forgot-pass {
+            color: rgba(255, 255, 255, 0.8);
+            text-decoration: none;
+            font-size: 0.85rem;
+            transition: color 0.2s;
+        }
+
+        .forgot-pass:hover {
+            color: white;
+        }
+
+        /* Social Icons */
+        .social-icons .btn-social {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+            margin: 0 5px;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+
+        .social-icons .btn-social:hover {
+            background: white;
+            color: var(--primary-color);
+        }
+
+        /* Message Box */
+        #messageBox {
+            display: none;
+            margin-top: 15px;
+            padding: 10px;
+            border-radius: 8px;
+            font-size: 0.9rem;
+            text-align: center;
+        }
+
+        .msg-success {
+            background: rgba(46, 204, 113, 0.4);
+            border: 1px solid #2ecc71;
+        }
+
+        .msg-error {
+            background: rgba(231, 76, 60, 0.4);
+            border: 1px solid #e74c3c;
+        }
+
+        .btn-login:hover {
+            color: #ff0077d0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Video Backgrounds -->
+
+    <video autoplay muted loop playsinline id="video-background">
+        <source src="./Images/purple-sunset..mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <video autoplay muted loop playsinline id="video-background-mobile">
+        <source src="./Images/skysparxx.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <!-- Loader -->
+
+    <div id="loader"
+        style="position: fixed; inset: 0; background: #000 url('https://i.pinimg.com/originals/00/cd/13/00cd131f306544a54106a8f3dc4a95a2.gif') center/240px no-repeat; z-index: 9999;">
+    </div>
+        
+        <button onclick="backbutton()" class="robus btn btn-outline-secondary text-white">back</button>
+
+    <div class="glass-card fade-in">
+
+        <div class="row align-items-center g-4">
+            <div class="col-md-5 text-center pe-md-4">
+                <div class="mb-4">
+                    <i class="fa-brands fa-atlassian fa-4x" style="color: rgba(255,255,255,0.9);"></i>
+                </div>
+                <h2 class="robus">Welcome Back</h2>
+            </div>
+
+            <!-- Right Side: Form & Actions -->
+            <div class="col-md-7 ps-md-4 pt-md-3">
+                <form id="loginForm" onsubmit="handleLogin(event)">
+                    <!-- Email Input -->
+                    <div class="input-group mb-3">
+                        <span class="input-group-text"><i class="fas fa-envelope"></i></span>
+                        <input type="email" class="form-control" id="email" placeholder="Email Address" required>
+                    </div>
+
+                    <!-- Password Input -->
+                    <div class="input-group mb-3">
+                        <span class="input-group-text"><i class="fas fa-lock"></i></span>
+                        <input type="password" class="form-control" id="password" placeholder="Password" required>
+                    </div>
+
+                    <!-- Options -->
+                    <div class="d-flex justify-content-between align-items-center mb-2">
+                        <div class="form-check">
+                            <input class="form-check-input pointer" type="checkbox" id="rememberMe">
+                            <label class="form-check-label text-white-50 cursor" for="rememberMe"
+                                style="font-size: 0.85rem;">
+                                Remember me
+                            </label>
+                        </div>
+                        <a href="#" class="forgot-pass">
+                            Forgot Password?
+                        </a>
+                    </div>
+
+                    <!-- Submit Button -->
+                    <button type="submit" class="btn btn-login rounded-pill">
+                        Sign In
+                    </button>
+
+                    <!-- Feedback Message -->
+                    <div id="messageBox"></div>
+
+                    <!-- Social Login (Centered in column for balance) -->
+                    <div class="mt-4 text-center">
+                        <p class="text-white-50 mb-3" style="font-size: 0.9rem;">Or continue with</p>
+                        <div class="social-icons justify-content-center">
+                            <a href="#" class="btn-social"><i class="fab fa-google"></i></a>
+                            <a href="#" class="btn-social"><i class="fab fa-apple"></i></a>
+                            <a href="#" class="btn-social"><i class="fa-brands fa-microsoft"></i></i></a>
+                            <a href="#" class="btn-social"><i class="fab fa-facebook-f"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="mt-4 text-center">
+                        <span class="text-white-50" style="font-size: 0.9rem;">Don't have an account? </span>
+                        <a href="./Sign-up.html" class="text-white fw-bold text-decoration-none">Sign up</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- JavaScript for simple interaction -->
+    <script>
+        function backbutton() {
+            window.history.back();
+        }
+        function handleLogin(event) {
+            event.preventDefault();
+
+            const email = document.getElementById('email').value;
+            const password = document.getElementById('password').value;
+            const btn = document.querySelector('.btn-login');
+            const messageBox = document.getElementById('messageBox');
+
+            // Reset message
+            messageBox.style.display = 'none';
+            messageBox.className = '';
+
+            // Loading state
+            const originalText = btn.innerHTML;
+            btn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Signing in...';
+            btn.disabled = true;
+
+            // Simulate API call delay
+            setTimeout(() => {
+                btn.innerHTML = originalText;
+                btn.disabled = false;
+                messageBox.style.display = 'block';
+
+                // Simple validation check simulation
+                if (password.length < 6) {
+                    messageBox.textContent = "Password must be at least 6 characters.";
+                    messageBox.classList.add('msg-error');
+                } else {
+                    messageBox.textContent = "Login Successful! Redirecting...";
+                    messageBox.classList.add('msg-success');
+
+                    // Simulate redirect
+                    setTimeout(() => {
+                        window.location.href = "./index.html";
+                    }, 1000);
+                }
+            }, 1500);
+        }
+
+        // Loader
+
+        const hideLoader = () => {
+            document.getElementById("loader").style.display = "none";
+        };
+
+        window.addEventListener("load", hideLoader);
+        setTimeout(hideLoader, 5000); // 5000ms = 5 seconds
+    </script>
+</body>
+
+</html>

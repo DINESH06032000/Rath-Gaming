@@ -1,0 +1,998 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Rajdhani:wght@400;600&family=Roboto:wght@300;400;700&display=swap');
+
+.orbitron {
+    font-family: 'Orbitron', sans-serif !important;
+}
+
+@font-face {
+    font-family: 'Robus';
+    src: url('./Fonts/Fun Games.otf') format('opentype'),
+}
+
+@font-face {
+    font-family: 'Rostex';
+    src: url('./Fonts/Rostex.otf') format('opentype'),
+}
+
+@font-face {
+    font-family: 'Deltha';
+    src: url('./Fonts/Deltha.otf') format('opentype'),
+}
+
+@font-face {
+    font-family: 'Aquatico';
+    src: url('./Fonts/Aquatico.otf') format('opentype'),
+}
+
+@font-face {
+    font-family: 'Kano';
+    src: url('./Fonts/Kano.otf') format('opentype'),
+}
+
+.aquatico {
+    font-family: Aquatico;
+}
+
+.deltha {
+    font-family: Deltha;
+}
+
+.kano {
+    font-family: Kano;
+}
+
+.robus {
+    font-family: Robus;
+}
+
+body {
+    margin: 0;
+    padding-top: 80px;
+    overflow-x: hidden;
+    min-height: 100vh;
+    cursor: url('./Mouse/black.svg') 4 3, auto !important;
+    font-family: "Nunito", sans-serif !important;
+}
+
+a {
+    cursor: url('./Mouse/pointer.svg') 11 2, pointer;
+}
+
+button:hover {
+    cursor: url('./Mouse/pointer.svg') 11 2, pointer !important;
+}
+
+.pointer {
+    cursor: url('./Mouse/pointer.svg') 11 2, pointer !important;
+}
+
+.cursor {
+    cursor: url('./Mouse/black.svg') 4 3, auto !important;
+}
+
+/* #cursor-glow {
+    position: fixed;
+    width: 30px;
+    height: 30px;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    z-index: 999999999;
+
+    border-radius: 50%;
+    background: radial-gradient(circle,
+            rgba(238, 174, 202, 0.8) 0%,
+            rgba(238, 174, 202, 0.2) 100%);
+    box-shadow: 0 0 20px rgba(238, 174, 202, 1);
+} */
+
+#myNavbar {
+    transition: background-color 0.5s linear;
+}
+
+#myNavbar.scrolled {
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(8px);
+}
+
+.nav-items {
+    color: white;
+    font-family: Deltha;
+    font-size: small;
+}
+
+.nav-items:hover {
+    text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.25);
+}
+
+.brand-text {
+    filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.8));
+    max-width: 0;
+    opacity: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-left: 0;
+    /* Smooth transition settings */
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.navbar-brand {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    /* Inline styles from your snippet preserved/moved here for cleanliness */
+    filter: drop-shadow(0 0 5px rgb(255, 0, 106));
+    color: #fff;
+    font-family: 'Robus', sans-serif;
+    /* Fallback added */
+    font-size: x-large;
+    cursor: pointer;
+    padding: 10px;
+    /* Added some hit area padding */
+}
+
+/* --- DROPDOWN VISUAL STYLES (Glassmorphism Only) --- */
+/* Note: Layout properties removed; handled by Bootstrap now */
+
+.glass-item {
+    /* Flex layout for internal content centering */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    /* Visuals */
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    border-radius: 16px;
+    background: rgba(30, 30, 30, 0.6);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+
+    /* Transitions */
+    transition: transform 0.3s ease, background 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    /* Important for equal height columns */
+    width: 100%;
+}
+
+.glass-item:hover {
+    transform: translateY(-4px);
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+    border-color: rgba(255, 255, 255, 0.4);
+    color: white;
+    filter: drop-shadow(0px 0px 10px rgb(0, 0, 0));
+}
+
+/* Specific styles for the horizontal contact card */
+.contact-item {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 20px;
+}
+
+/* Typography & Icons within glass items */
+.glass-item .title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.glass-item .subtitle {
+    font-size: 0.55rem;
+    opacity: 0.7;
+}
+
+.glass-item .main-icon {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    opacity: 0.9;
+}
+
+/* Social Icons */
+.social-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icons i {
+    font-size: 1.2rem;
+    transition: color 0.2s;
+    color: white;
+}
+
+.social-icons i:hover {
+    color: #ffffff;
+    text-shadow: 0px 0px 10px white;
+}
+
+/* Colors */
+.about-icon {
+    color: #4facfe;
+}
+
+.privacy-icon {
+    color: #00f2fe;
+}
+
+.contact-icon-main {
+    color: #43e97b;
+    margin-right: 10px;
+    font-size: 1.5rem;
+    margin-bottom: 0;
+}
+
+/* Shine Effect */
+.glass-item::after {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.1) 0%, transparent 70%);
+    opacity: 0;
+    transform: scale(0.5);
+    transition: opacity 0.5s, transform 0.5s;
+    pointer-events: none;
+}
+
+.glass-item:hover::after {
+    opacity: 1;
+    transform: scale(1);
+}
+
+/* Icon Styles */
+.navbar-brand i {
+    font-size: 2rem;
+    /* Removed margin-top to let flexbox center it properly */
+    margin-left: 12px;
+    filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.8));
+    transition: transform 0.3s ease;
+}
+
+.navbar-brand:hover .brand-text {
+    max-width: 150px;
+    /* Expand width to reveal text */
+    opacity: 1;
+    /* Fade in */
+    margin-left: 10px;
+    /* Add spacing between icon and text */
+}
+
+.navbar-brand:hover i {
+    transform: rotate(15deg);
+}
+
+#Free-Games {
+    padding-left: 5%;
+    margin-top: -3%;
+}
+
+/* LOCK NAV ITEMS IN CENTER */
+@media (min-width: 992px) {
+    .navbar .container-fluid {
+        position: relative;
+    }
+
+    .navbar-collapse {
+        position: static;
+    }
+
+    .navbar-nav.mx-auto {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        margin: 0 !important;
+        width: max-content;
+        z-index: 10;
+    }
+}
+
+/* Scroll bar */
+
+#game-row {
+    /* This rule is for Firefox */
+    scrollbar-width: none;
+    /* This rule is for Internet Explorer and old Edge */
+    -ms-overflow-style: none;
+}
+
+/* This rule is for Chrome, Safari, and new Edge */
+#game-row::-webkit-scrollbar {
+    display: none;
+}
+
+/* Styling for dynamically generated shelf items */
+.shelves-items-row {
+    position: relative;
+    transition: all 300ms linear;
+    padding-top: 5px;
+    /* Added padding to define the hoverable area */
+    padding-bottom: 5px;
+}
+
+.shelves-items-row:hover {
+    background-color: rgba(255, 255, 255, 0.25);
+    border-radius: 10px;
+    filter: drop-shadow(0px 0px 10px rgba(255, 255, 255, 0.25));
+    position: relative;
+    z-index: 10;
+    backdrop-filter: blur(5px);
+    transform: scale(1.05);
+    transition: transform;
+    transition-timing-function: linear;
+    transition-duration: 300ms;
+}
+
+.shelves-line {
+    border-right: 2px solid rgba(255, 255, 255, 0.25);
+}
+
+#hr-shelves {
+    border-top: 0.5px solid rgba(255, 255, 255, 0.5);
+    margin: 5px;
+}
+
+#video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    filter: brightness(0.5);
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
+
+#auto-scroll-items {
+    box-shadow: 1px 1px 5px black;
+}
+
+#auto-scroll-items:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    transition-property: transform;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    filter: drop-shadow(0px 0px 30px rgba(255, 255, 255, 0.3));
+    backdrop-filter: blur(10px);
+}
+
+#corousel:hover {
+    filter: drop-shadow(0px 0px 10px rgba(255, 255, 255, 0.3)) drop-shadow(0px 0px 30px rgba(255, 255, 255, 0.4));
+    transform: scale(1.01);
+    transition-property: transform;
+    transition-duration: 150ms;
+    transition-timing-function: linear;
+}
+
+#Nav-Search:hover {
+    box-shadow: 0px 0px 20px white;
+    transform: scale(1.05);
+    transition-property: transform;
+    transition-duration: 150ms;
+    transition-timing-function: linear;
+}
+
+#Nav-Search-icon:hover {
+    filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, 0.5));
+    transform: scale(1.1);
+    transition-property: transform;
+    transition-duration: 150ms;
+    transition-timing-function: linear;
+}
+
+#Stories {
+    box-shadow: 1px 1px 5px black;
+}
+
+#Stories:hover {
+    background-color: rgba(0, 0, 0, 0.25);
+    transform: scale(1.02);
+    transition-property: transform;
+    transition-timing-function: linear;
+    transition-duration: 150ms;
+}
+
+#video-background-mobile {
+    display: none;
+}
+
+#bounce :active {
+    transform: translateX(1rem);
+    transition: transform;
+    transition-duration: 200ms;
+}
+
+#bounce :hover {
+    text-shadow: 0px 0px 5px white;
+}
+
+/* Smooth load animation */
+
+.item {
+    opacity: 0;
+    transform: translateY(18px);
+    transition: opacity .45s ease, transform .45s cubic-bezier(.2, .9, .3, 1);
+    will-change: opacity, transform;
+}
+
+.item.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* center fix for nav items on all breakpoints */
+.navbar-nav.mx-auto {
+    gap: .25rem;
+}
+
+/* Hover dropdown: show menu on pointer hover, but clicks still work on touch */
+@media (active: active) and (pointer: fine) {
+    .navbar .nav-item.dropdown:hover>.dropdown-menu {
+        display: block;
+    }
+}
+
+/* small visual tweaks */
+
+.navbar .dropdown-menu {
+    margin-top: .25rem;
+    border-radius: .5rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(8px);
+}
+
+.navbar .nav-link {
+    padding-left: .9rem;
+    padding-right: .9rem;
+}
+
+#dropdown {
+    color: rgba(255, 255, 255, 0.75) !important;
+    border: 0px solid;
+}
+
+#dropdown:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 8px;
+}
+
+/* Sparkles */
+
+#navSparkles {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    pointer-events: none;
+    z-index: 99999
+}
+
+.s {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: radial-gradient(circle, #fff 0%, rgba(255, 150, 230, 0.9)40%, rgba(255, 0, 255, 0)100%);
+    transform: translate(-50%, -50%) scale(.6);
+    opacity: 0;
+    animation: sf 1.4s ease-out forwards
+}
+
+@keyframes sf {
+    0% {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(.6)
+    }
+
+    50% {
+        transform: translate(-50%, -65%) scale(1)
+    }
+
+    100% {
+        opacity: 0;
+        transform: translate(-50%, -100%) scale(.5)
+    }
+}
+
+/* Nav Brand */
+
+.star {
+    position: absolute;
+    color: #ffd6ff;
+    font-size: 12px;
+    opacity: 0;
+    filter: drop-shadow(0 0 4px #ffb7ff);
+    animation: sf 1s ease-out forwards
+}
+
+@keyframes sf {
+    0% {
+        opacity: 1;
+        transform: translateY(10px) scale(1)
+    }
+
+    50% {
+        transform: translateY(-6px) scale(1.3)
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateY(-12px) scale(.8)
+    }
+}
+
+.news:hover img {
+    filter: drop-shadow(0 0 12px rgb(255, 255, 255));
+    transform: scale(1.02);
+    transition: 0.2s ease;
+}
+
+/* Search function */
+
+#searchResults {
+    position: fixed;
+    z-index: 9999;
+    width: 360px;
+    max-height: 360px;
+    overflow-y: auto;
+
+    backdrop-filter: blur(8px) saturate(120%);
+    -webkit-backdrop-filter: blur(8px) saturate(120%);
+    background: rgba(20, 20, 20, 0.36);
+
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.6);
+    padding: 8px;
+    display: none;
+}
+
+#searchResults {
+    scrollbar-width: none;      /* Firefox */
+    -ms-overflow-style: none;   /* IE/Edge */
+}
+
+#searchResults::-webkit-scrollbar {
+    display: none;              /* Chrome/Safari */
+}
+
+/* Each search item card */
+.search-row {
+    min-height: 64px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    border-radius: 10px;
+
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.03), rgba(255, 255, 255, 0.015));
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+
+    padding: 8px;
+    margin-bottom: 8px;
+
+    transition: 150ms ease;
+    text-decoration: none;
+    color: inherit;
+}
+
+.search-row:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.02));
+}
+
+.search-row.selected {
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.02));
+}
+
+/* No-results bubble */
+.search-no-results {
+    padding: 12px;
+    border-radius: 10px;
+    margin: 6px;
+
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.02), rgba(255, 255, 255, 0.01));
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+
+    color: rgba(255, 255, 255, 0.9);
+    text-align: center;
+}
+
+/* Footer */
+
+.glass-footer {
+    background: rgba(33, 37, 41, 0.5);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    color: #b0b0b0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 15px;
+    margin-top: auto;
+}
+
+/* --- Typography & Headings --- */
+.footer-heading {
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+    position: relative;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    /* Applying custom class if 'robus' is a font the user has, otherwise falling back */
+    font-family: 'robus', sans-serif;
+}
+
+/* --- Link Lists --- */
+.footer-list {
+    list-style: none;
+    padding: 12px;
+}
+
+.footer-list li {
+    margin-bottom: 10px;
+}
+
+/* --- Links with Deltha Font & Icons --- */
+.footer-link-item {
+    color: #b0b0b0;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    display: inline-block;
+    font-family: 'Deltha', sans-serif;
+    font-size: 0.75rem;
+    /* Slight bump for readability if Deltha is thin */
+}
+
+.footer-link-item i {
+    width: 20px;
+    /* Fixed width for icon alignment */
+    text-align: center;
+    margin-right: 5px;
+    color: inherit;
+    transition: color 0.3s ease;
+}
+
+/* Hover Effects */
+.footer-link-item:hover {
+    color: #ffffff !important;
+    transform: translateX(5px);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+}
+
+.footer-link-item:hover i {
+    color: #fff;
+}
+
+/* --- Brand Section --- */
+.footer-brand {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+    font-family: 'robus', sans-serif;
+}
+
+/* --- Social Icons --- */
+.social-icon-item {
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    border-radius: 50%;
+    margin-right: 10px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.social-icon-item:hover {
+    background: #fd0d99 !important;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(253, 13, 165, 0.5);
+    color: #fff;
+}
+
+/* --- Glass Input for Newsletter --- */
+.glass-input {
+    background: rgba(255, 255, 255, 0.1) !important;
+    border: 1px solid rgba(255, 255, 255, 0.2) !important;
+    color: white !important;
+    backdrop-filter: blur(5px);
+}
+
+.glass-input::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.glass-input:focus {
+    background: rgba(255, 255, 255, 0.15) !important;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+}
+
+/* --- Copyright Bar --- */
+.copyright-bar {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 20px 0;
+    margin-top: 10px;
+    font-size: 0.9rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+/* Footer logo animation */
+
+#footer-logo {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    filter: drop-shadow(0 0 5px rgb(255, 0, 123));
+    color: #fff;
+    font-size: x-large;
+    cursor: pointer;
+    padding: 10px;
+}
+
+/* Icon Styles scoped to footer-logo */
+#footer-logo i {
+    font-size: 2rem;
+    margin-right: 8px;
+    filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.8));
+    /* Animation applied here */
+    animation: icon-dance 4s ease-in-out infinite;
+    /* Layering for the "behind" effect */
+    position: relative;
+    z-index: 2;
+}
+
+#footer-logo .brand-text {
+    filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.8));
+    overflow: hidden;
+    white-space: nowrap;
+    /* Animation applied here */
+    animation: text-reveal 4s ease-in-out infinite;
+    /* Layering for the "behind" effect */
+    position: relative;
+    z-index: 1;
+}
+
+@keyframes text-reveal {
+
+    0%,
+    10% {
+        max-width: 0;
+        opacity: 0;
+        margin-left: 0;
+        transform: translateX(-30px);
+        /* Start pulled behind the icon */
+    }
+
+    40%,
+    70% {
+        /* Hold the open state for a moment */
+        max-width: 120px;
+        opacity: 1;
+        transform: translateX(0);
+        /* Slide out to normal position */
+    }
+
+    90%,
+    100% {
+        max-width: 0;
+        opacity: 0;
+        margin-left: 0;
+        transform: translateX(-30px);
+        /* Slide back behind */
+    }
+}
+
+@keyframes icon-dance {
+
+    0%,
+    10% {
+        transform: rotate(0deg);
+    }
+
+    40%,
+    70% {
+        transform: rotate(15deg);
+    }
+
+    90%,
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+/* Glassmorphism Logic */
+.glass-card {
+    background-color: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 1rem;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    transition: all 0.3s ease;
+}
+
+.glass-card-darker {
+    background-color: rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(16px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 1rem;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+
+@media (min-width: 992px) {
+    /* 1. Target the Row: Force columns to equal height */
+    #page > .row {
+        align-items: stretch;
+    }
+
+    /* 2. Carousel Column: Center the carousel vertically if the right bar is taller */
+    #corousel {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    /* 3. Carousel Images: Keep strict 16:9 ratio */
+    .carousel-item img {
+        aspect-ratio: 16/9;
+        object-fit: cover;
+        width: 100%;
+    }
+
+    /* 4. Right Bar (Trending): Force full height to match Carousel */
+    #Right-bar {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #trending-box {
+        height: 100% !important; /* Fills the height defined by the carousel */
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+    }
+
+    /* 5. Internal Spacing: distribute items evenly */
+    #trending-list {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly; /* Perfect padding calculation */
+    }
+
+    #trending-list hr {
+        display: none;
+    }
+
+    @keyframes glass-shine {
+    0% { left: -150%; }
+    20% { left: 150%; } /* Sweeps across quickly */
+    100% { left: 150%; } /* Pauses before restarting */
+}
+
+/* 2. Setup the container */
+#trending-box {
+    position: relative; /* Anchors the shine */
+    overflow: hidden;   /* Keeps shine inside borders */
+}
+
+/* 3. The Shine Overlay */
+#trending-box::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -150%;
+    width: 80%;
+    height: 100%;
+    /* Subtle white gradient */
+    background: linear-gradient(
+        to right,
+        transparent 0%,
+        rgba(255, 255, 255, 0.1) 50%, 
+        transparent 100%
+    );
+    transform: skewX(-25deg);
+    animation: glass-shine 6s infinite ease-in-out;
+    pointer-events: none; /* Ensures you can still click links behind it */
+}
+}
+
+@keyframes glass-shine {
+    0% { left: -150%; }
+    20% { left: 150%; } /* Sweeps across quickly */
+    100% { left: 150%; } /* Pauses before restarting */
+}
+
+/* 2. Setup the container */
+#trending-box {
+    position: relative; /* Anchors the shine */
+    overflow: hidden;   /* Keeps shine inside borders */
+}
+
+/* 3. The Shine Overlay */
+#trending-box::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -150%;
+    width: 80%;
+    height: 100%;
+    /* Subtle white gradient */
+    background: linear-gradient(
+        to right,
+        transparent 0%,
+        rgba(255, 255, 255, 0.1) 50%, 
+        transparent 100%
+    );
+    transform: skewX(-25deg);
+    animation: glass-shine 6s infinite ease-in-out;
+    pointer-events: none; /* Ensures you can still click links behind it */
+}
+
+/* Glass shine effect */
+
+@keyframes shine {
+    0% {
+      left: -150%;
+    }
+
+    20%,
+    100% {
+      left: 150%;
+    }
+  }
+
+  .glass-shine {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .glass-shine::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -150%;
+    width: 80%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.1), transparent);
+    transform: skewX(-25deg);
+    animation: shine 6s infinite;
+    pointer-events: none;
+  }

@@ -1,0 +1,602 @@
+[
+  {
+    "title": "Fortnite",
+    "img": "https://m.media-amazon.com/images/M/MV5BMTZlMmIxM2EtN2Y4Zi00M2ZhLTk3NzgtNjJmZTU0MTQ3YjcwXkEyXkFqcGc@._V1_.jpg",
+    "rating": "4.7",
+    "link": "./Gamepage/game.html?game=fortnite"
+  },
+  {
+    "title": "Genshin Impact",
+    "img": "https://m.media-amazon.com/images/I/71fQRh4Y3dL._AC_UF1000,1000_QL80_.jpg",
+    "rating": "4.5",
+    "link": "./Gamepage/game.html?game=genshin-impact"
+  },
+  {
+    "title": "Counter-Strike 2",
+    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/library_600x900_2x.jpg",
+    "rating": "4.3",
+    "link": "./Gamepage/game.html?game=counterstrike-2"
+  },
+  {
+    "title": "Valorant",
+    "img": "https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Valorant_cover.jpg/250px-Valorant_cover.jpg",
+    "rating": "4.6",
+    "link": "./Gamepage/game.html?game=valorant"
+  },
+  {
+    "title": "Apex Legends",
+    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172470/library_600x900_2x.jpg",
+    "rating": "4.5",
+    "link": "./Gamepage/game.html?game=apex-legends"
+  },
+  {
+    "title": "League of Legends",
+    "img": "https://cdn.mobygames.com/covers/17214947-league-of-legends-windows-front-cover.jpg",
+    "rating": "4.4",
+    "link": "./Gamepage/game.html?game=league-of-legends"
+  },
+  {
+    "title": "Dota 2",
+    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570/library_600x900_2x.jpg",
+    "rating": "4.4",
+    "link": "./Gamepage/game.html?game=dota-2"
+  },
+  {
+    "title": "Overwatch 2",
+    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2357570/library_600x900_2x.jpg",
+    "rating": "4.1",
+    "link": "./Gamepage/game.html?game=overwatch-2"
+  },
+  {
+    "title": "Warframe",
+    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/230410/library_600x900_2x.jpg",
+    "rating": "4.5",
+    "link": "./Gamepage/game.html?game=warframe"
+  },
+  {
+    "title": "Roblox",
+    "img": "https://images.rbxcdn.com/5348266ea6c5e67b19d6a814cbbb70f6.jpg",
+    "rating": "4.0",
+    "link": "./Gamepage/game.html?game=roblox"
+  },
+  {
+    "title": "Team Fortress 2",
+    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440/library_600x900_2x.jpg",
+    "rating": "4.2",
+    "link": "./Gamepage/game.html?game=team-fortress-2"
+  },
+  {
+    "title": "Destiny 2",
+    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1085660/library_600x900_2x.jpg",
+    "rating": "4.0",
+    "link": "./Gamepage/game.html?game=destiny-2"
+  },
+  {
+    "title": "Paladins",
+    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/444090/library_600x900_2x.jpg",
+    "rating": "4.2",
+    "link": "./Gamepage/game.html?game=paladins"
+  },
+  {
+    "title": "SMITE",
+    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/386360/library_600x900_2x.jpg",
+    "rating": "4.1",
+    "link": "./Gamepage/game.html?game=smite"
+  },
+  {
+    "title": "Hearthstone",
+    "img": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/bd751d07-1e6e-4b3f-aa49-0adae5f330c1/d6rvn2k-38a076d5-7264-49df-baa6-63ae948435fa.png",
+    "rating": "4.3",
+    "link": "./Gamepage/game.html?game=hearthstone"
+  },
+  {
+    "title": "Magic: The Gathering Arena",
+    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2141910/library_600x900_2x.jpg",
+    "rating": "4.1",
+    "link": "./Gamepage/game.html?game=magic-the-gathering-arena"
+  },
+  {
+    "title": "Final Fantasy XIV",
+    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/39210/library_600x900_2x.jpg",
+    "rating": "4.8",
+    "link": "./Gamepage/game.html?game=final-fantasy-xiv"
+  },
+  {
+    "title": "Lost Ark",
+    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1599340/library_600x900_2x.jpg",
+    "rating": "4.7",
+    "link": "./Gamepage/game.html?game=lost-ark"
+  },
+  {
+    "title": "War Thunder",
+    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/236390/library_600x900_2x.jpg",
+    "rating": "4.6",
+    "link": "./Gamepage/game.html?game=war-thunder"
+  },
+  {
+    "title": "World of Tanks",
+    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1407200/library_600x900_2x.jpg",
+    "rating": "4.5",
+    "link": "./Gamepage/game.html?game=world-of-tanks"
+  },
+  {
+    "title": "World of Warships",
+    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/552990/library_600x900_2x.jpg",
+    "rating": "4.4",
+    "link": "./Gamepage/game.html?game=world-of-warships"
+  },
+  {
+    "title": "Path of Exile",
+    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/238960/library_600x900_2x.jpg",
+    "rating": "4.5",
+    "link": "./Gamepage/game.html?game=path-of-exile"
+  },
+  {
+    "title": "Trackmania",
+    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2225070/library_600x900_2x.jpg",
+    "rating": "4.2",
+    "link": "./Gamepage/game.html?game=trackmania"
+  },
+  {
+    "title": "Crab Game",
+    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1782210/library_600x900_2x.jpg",
+    "rating": "3.6",
+    "link": "./Gamepage/game.html?game=crab-game"
+  },
+  {
+    "title": "Brawlhalla",
+    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/291550/library_600x900_2x.jpg",
+    "rating": "4.5",
+    "link": "./Gamepage/game.html?game=brawlhalla"
+  },
+  {
+    "title": "DC Universe Online",
+    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/24200/library_600x900_2x.jpg",
+    "rating": "4.0",
+    "link": "./Gamepage/game.html?game=dc-universe-online"
+  },
+  {
+    "title": "MapleStory",
+    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/216150/library_600x900_2x.jpg",
+    "rating": "4.2",
+    "link": "./Gamepage/game.html?game=maplestory"
+  },
+  {
+    "title": "Dauntless",
+    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/331370/library_600x900_2x.jpg",
+    "rating": "3.9",
+    "link": "./Gamepage/game.html?game=dauntless"
+  },
+  {
+    "title": "Marvel Snap",
+    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1997040/library_600x900_2x.jpg",
+    "rating": "4.4",
+    "link": "./Gamepage/game.html?game=marvel-snap"
+  },
+  {
+    "title": "Guild Wars 2",
+    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1284210/library_600x900_2x.jpg",
+    "rating": "4.4",
+    "link": "./Gamepage/game.html?game=guild-wars-2"
+  },
+  {
+    "title": "Call of Duty: Warzone",
+    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1962663/library_600x900_2x.jpg",
+    "rating": "3.9",
+    "link": "./Gamepage/game.html?game=call-of-duty-warzone"
+  },
+  {
+    "title": "PUBG Battlegrounds",
+    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/578080/library_600x900_2x.jpg",
+    "rating": "4.2",
+    "link": "./Gamepage/game.html?game=pubg-battlegrounds"
+  },
+  {
+    "title": "EVE Online",
+    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/8500/library_600x900_2x.jpg",
+    "rating": "4.0",
+    "link": "./Gamepage/game.html?game=eve-online"
+  },
+  {
+    "title": "PlanetSide 2",
+    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/218230/library_600x900_2x.jpg",
+    "rating": "3.8",
+    "link": "./Gamepage/game.html?game=planetside-2"
+  },
+  {
+    "title": "Teamfight Tactics",
+    "img": "https://m.media-amazon.com/images/M/MV5BYzM1YjdkZDItNjBjZS00NTBjLThiYmItYjM3MzZjOTNhYTdiXkEyXkFqcGc@._V1_.jpg",
+    "rating": "4.1",
+    "link": "./Gamepage/game.html?game=teamfight-tactics"
+  },
+  {
+    "title": "RuneScape",
+    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1343400/library_600x900_2x.jpg",
+    "rating": "4.3",
+    "link": "./Gamepage/game.html?game=runescape"
+  },
+  {
+    "title": "Shadowverse: Worlds Beyond",
+    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2584990/library_600x900_2x.jpg",
+    "rating": "4.0",
+    "link": "./Gamepage/game.html?game=shadowverse-worlds-beyond"
+  },
+  {
+    "title": "Legends of Runeterra",
+    "img": "https://static0.polygonimages.com/wordpress/wp-content/uploads/sharedimages/2024/12/mixcollage-07-dec-2024-01-26-am-3533.jpg?q=50&fit=contain&w=480&dpr=1.5",
+    "rating": "4.2",
+    "link": "./Gamepage/game.html?game=legends-of-runeterra"
+  },
+  {
+    "title": "Honkai: Star Rail",
+    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1671200/library_600x900_2x.jpg",
+    "rating": "4.3",
+    "link": "./Gamepage/game.html?game=honkai-star-rail"
+  },
+  {
+    "title": "Warface",
+    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/291480/library_600x900_2x.jpg",
+    "rating": "3.8",
+    "link": "./Gamepage/game.html?game=warface"
+  },
+  {
+    "title": "Crossout",
+    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/386180/library_600x900_2x.jpg",
+    "rating": "3.9",
+    "link": "./Gamepage/game.html?game=crossout"
+  },
+  {
+    "title": "StarCraft II",
+    "img": "https://upload.wikimedia.org/wikipedia/en/thumb/2/20/StarCraft_II_-_Box_Art.jpg/250px-StarCraft_II_-_Box_Art.jpg",
+    "rating": "4.4",
+    "link": "./Gamepage/game.html?game=starcraft-ii"
+  },
+  {
+    "title": "Legends of Idleon",
+    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1476970/library_600x900_2x.jpg",
+    "rating": "3.8",
+    "link": "./Gamepage/game.html?game=legends-of-idleon"
+  },
+  {
+    "title": "ArcheAge",
+    "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5w7l.webp",
+    "rating": "4.0",
+    "link": "./Gamepage/game.html?game=archeage"
+  },
+  {
+    "title": "Rocket League",
+    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252950/library_600x900_2x.jpg",
+    "rating": "4.6",
+    "link": "./Gamepage/game.html?game=rocket-league"
+  },
+  {
+    "title": "Fall Guys",
+    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1097150/library_600x900_2x.jpg",
+    "rating": "4.0",
+    "link": "./Gamepage/game.html?game=fall-guys"
+  },
+  {
+    "title": "The Sims 4",
+    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222670/library_600x900_2x.jpg",
+    "rating": "4.1",
+    "link": "./Gamepage/game.html?game=the-sims-4"
+  },
+  {
+    "title": "Marvel Rivals",
+    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2767030/library_600x900_2x.jpg",
+    "rating": "3.7",
+    "link": "./Gamepage/game.html?game=marvel-rivals"
+  },
+  {
+    "title": "The Finals",
+    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2073850/library_600x900_2x.jpg",
+    "rating": "3.8",
+    "link": "./Gamepage/game.html?game=the-finals"
+  },
+  {
+    "title": "Halo Infinite",
+    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1240440/library_600x900_2x.jpg",
+    "rating": "4.3",
+    "link": "./Gamepage/game.html?game=halo-infinite"
+  },
+  {
+    "title": "Fortnite",
+    "img": "https://m.media-amazon.com/images/M/MV5BMTZlMmIxM2EtN2Y4Zi00M2ZhLTk3NzgtNjJmZTU0MTQ3YjcwXkEyXkFqcGc@._V1_.jpg",
+    "rating": "4.7",
+    "link": "./Gamepage/game.html?game=fortnite"
+  },
+  {
+    "title": "Genshin Impact",
+    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1671200/library_600x900_2x.jpg",
+    "rating": "4.5",
+    "link": "./Gamepage/game.html?game=genshin-impact"
+  },
+  {
+    "title": "Counter-Strike 2",
+    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/library_600x900_2x.jpg",
+    "rating": "4.3",
+    "link": "./Gamepage/game.html?game=counterstrike-2"
+  },
+  {
+    "title": "Valorant",
+    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1802910/library_600x900_2x.jpg",
+    "rating": "4.6",
+    "link": "./Gamepage/game.html?game=valorant"
+  },
+  {
+    "title": "Apex Legends",
+    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172470/library_600x900_2x.jpg",
+    "rating": "4.5",
+    "link": "./Gamepage/game.html?game=apex-legends"
+  },
+  {
+    "title": "League of Legends",
+    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2083630/library_600x900_2x.jpg",
+    "rating": "4.4",
+    "link": "./Gamepage/game.html?game=league-of-legends"
+  },
+  {
+    "title": "Dota 2",
+    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570/library_600x900_2x.jpg",
+    "rating": "4.4",
+    "link": "./Gamepage/game.html?game=dota-2"
+  },
+  {
+    "title": "Overwatch 2",
+    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2357570/library_600x900_2x.jpg",
+    "rating": "4.1",
+    "link": "./Gamepage/game.html?game=overwatch-2"
+  },
+  {
+    "title": "Warframe",
+    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/230410/library_600x900_2x.jpg",
+    "rating": "4.5",
+    "link": "./Gamepage/game.html?game=warframe"
+  },
+  {
+    "title": "Roblox",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvBLxRi7Gr-2D5WShF3zkAZ6l246xJM4d1Tg&s",
+    "rating": "4.0",
+    "link": "./Gamepage/game.html?game=roblox"
+  },
+  {
+    "title": "Team Fortress 2",
+    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440/library_600x900_2x.jpg",
+    "rating": "4.2",
+    "link": "./Gamepage/game.html?game=team-fortress-2"
+  },
+  {
+    "title": "Destiny 2",
+    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1085660/library_600x900_2x.jpg",
+    "rating": "4.0",
+    "link": "./Gamepage/game.html?game=destiny-2"
+  },
+  {
+    "title": "Paladins",
+    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/444090/library_600x900_2x.jpg",
+    "rating": "4.2",
+    "link": "./Gamepage/game.html?game=paladins"
+  },
+  {
+    "title": "SMITE",
+    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/386360/library_600x900_2x.jpg",
+    "rating": "4.1",
+    "link": "./Gamepage/game.html?game=smite"
+  },
+  {
+    "title": "Hearthstone",
+    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2104760/library_600x900_2x.jpg",
+    "rating": "4.3",
+    "link": "./Gamepage/game.html?game=hearthstone"
+  },
+  {
+    "title": "Magic: The Gathering Arena",
+    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2141910/library_600x900_2x.jpg",
+    "rating": "4.1",
+    "link": "./Gamepage/game.html?game=magic-the-gathering-arena"
+  },
+  {
+    "title": "Final Fantasy XIV",
+    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/39210/library_600x900_2x.jpg",
+    "rating": "4.8",
+    "link": "./Gamepage/game.html?game=final-fantasy-xiv"
+  },
+  {
+    "title": "Lost Ark",
+    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1599340/library_600x900_2x.jpg",
+    "rating": "4.7",
+    "link": "./Gamepage/game.html?game=lost-ark"
+  },
+  {
+    "title": "War Thunder",
+    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/236390/library_600x900_2x.jpg",
+    "rating": "4.6",
+    "link": "./Gamepage/game.html?game=war-thunder"
+  },
+  {
+    "title": "World of Tanks",
+    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1407200/library_600x900_2x.jpg",
+    "rating": "4.5",
+    "link": "./Gamepage/game.html?game=world-of-tanks"
+  },
+  {
+    "title": "World of Warships",
+    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/552990/library_600x900_2x.jpg",
+    "rating": "4.4",
+    "link": "./Gamepage/game.html?game=world-of-warships"
+  },
+  {
+    "title": "Path of Exile",
+    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/238960/library_600x900_2x.jpg",
+    "rating": "4.5",
+    "link": "./Gamepage/game.html?game=path-of-exile"
+  },
+  {
+    "title": "Trackmania",
+    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2225070/library_600x900_2x.jpg",
+    "rating": "4.2",
+    "link": "./Gamepage/game.html?game=trackmania"
+  },
+  {
+    "title": "Crab Game",
+    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1782210/library_600x900_2x.jpg",
+    "rating": "3.6",
+    "link": "./Gamepage/game.html?game=crab-game"
+  },
+  {
+    "title": "Brawlhalla",
+    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/291550/library_600x900_2x.jpg",
+    "rating": "4.5",
+    "link": "./Gamepage/game.html?game=brawlhalla"
+  },
+  {
+    "title": "DC Universe Online",
+    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/24200/library_600x900_2x.jpg",
+    "rating": "4.0",
+    "link": "./Gamepage/game.html?game=dc-universe-online"
+  },
+  {
+    "title": "MapleStory",
+    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/216150/library_600x900_2x.jpg",
+    "rating": "4.2",
+    "link": "./Gamepage/game.html?game=maplestory"
+  },
+  {
+    "title": "Dauntless",
+    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/331370/library_600x900_2x.jpg",
+    "rating": "3.9",
+    "link": "./Gamepage/game.html?game=dauntless"
+  },
+  {
+    "title": "Marvel Snap",
+    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1997040/library_600x900_2x.jpg",
+    "rating": "4.4",
+    "link": "./Gamepage/game.html?game=marvel-snap"
+  },
+  {
+    "title": "Guild Wars 2",
+    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1284210/library_600x900_2x.jpg",
+    "rating": "4.4",
+    "link": "./Gamepage/game.html?game=guild-wars-2"
+  },
+  {
+    "title": "Call of Duty: Warzone",
+    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1962663/library_600x900_2x.jpg",
+    "rating": "3.9",
+    "link": "./Gamepage/game.html?game=call-of-duty-warzone"
+  },
+  {
+    "title": "PUBG Battlegrounds",
+    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/578080/library_600x900_2x.jpg",
+    "rating": "4.2",
+    "link": "./Gamepage/game.html?game=pubg-battlegrounds"
+  },
+  {
+    "title": "EVE Online",
+    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/8500/library_600x900_2x.jpg",
+    "rating": "4.0",
+    "link": "./Gamepage/game.html?game=eve-online"
+  },
+  {
+    "title": "PlanetSide 2",
+    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/218230/library_600x900_2x.jpg",
+    "rating": "3.8",
+    "link": "./Gamepage/game.html?game=planetside-2"
+  },
+  {
+    "title": "Teamfight Tactics",
+    "img": "https://m.media-amazon.com/images/M/MV5BYzM1YjdkZDItNjBjZS00NTBjLThiYmItYjM3MzZjOTNhYTdiXkEyXkFqcGc@._V1_.jpg",
+    "rating": "4.1",
+    "link": "./Gamepage/game.html?game=teamfight-tactics"
+  },
+  {
+    "title": "RuneScape",
+    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1343400/library_600x900_2x.jpg",
+    "rating": "4.3",
+    "link": "./Gamepage/game.html?game=runescape"
+  },
+  {
+    "title": "Shadowverse: Worlds Beyond",
+    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2584990/library_600x900_2x.jpg",
+    "rating": "4.0",
+    "link": "./Gamepage/game.html?game=shadowverse-worlds-beyond"
+  },
+  {
+    "title": "Legends of Runeterra",
+    "img": "https://static0.polygonimages.com/wordpress/wp-content/uploads/sharedimages/2024/12/mixcollage-07-dec-2024-01-26-am-3533.jpg?q=50&fit=contain&w=480&dpr=1.5",
+    "rating": "4.2",
+    "link": "./Gamepage/game.html?game=legends-of-runeterra"
+  },
+  {
+    "title": "Honkai: Star Rail",
+    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1671200/library_600x900_2x.jpg",
+    "rating": "4.3",
+    "link": "./Gamepage/game.html?game=honkai-star-rail"
+  },
+  {
+    "title": "Warface",
+    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/291480/library_600x900_2x.jpg",
+    "rating": "3.8",
+    "link": "./Gamepage/game.html?game=warface"
+  },
+  {
+    "title": "Crossout",
+    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/386180/library_600x900_2x.jpg",
+    "rating": "3.9",
+    "link": "./Gamepage/game.html?game=crossout"
+  },
+  {
+    "title": "StarCraft II",
+    "img": "https://upload.wikimedia.org/wikipedia/en/thumb/2/20/StarCraft_II_-_Box_Art.jpg/250px-StarCraft_II_-_Box_Art.jpg",
+    "rating": "4.4",
+    "link": "./Gamepage/game.html?game=starcraft-ii"
+  },
+  {
+    "title": "Legends of Idleon",
+    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1476970/library_600x900_2x.jpg",
+    "rating": "3.8",
+    "link": "./Gamepage/game.html?game=legends-of-idleon"
+  },
+  {
+    "title": "ArcheAge",
+    "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5w7l.webp",
+    "rating": "4.0",
+    "link": "./Gamepage/game.html?game=archeage"
+  },
+  {
+    "title": "Rocket League",
+    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252950/library_600x900_2x.jpg",
+    "rating": "4.6",
+    "link": "./Gamepage/game.html?game=rocket-league"
+  },
+  {
+    "title": "Fall Guys",
+    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1097150/library_600x900_2x.jpg",
+    "rating": "4.0",
+    "link": "./Gamepage/game.html?game=fall-guys"
+  },
+  {
+    "title": "The Sims 4",
+    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222670/library_600x900_2x.jpg",
+    "rating": "4.1",
+    "link": "./Gamepage/game.html?game=the-sims-4"
+  },
+  {
+    "title": "Marvel Rivals",
+    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2767030/library_600x900_2x.jpg",
+    "rating": "3.7",
+    "link": "./Gamepage/game.html?game=marvel-rivals"
+  },
+  {
+    "title": "The Finals",
+    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2073850/library_600x900_2x.jpg",
+    "rating": "3.8",
+    "link": "./Gamepage/game.html?game=the-finals"
+  },
+  {
+    "title": "Halo Infinite",
+    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1240440/library_600x900_2x.jpg",
+    "rating": "4.3",
+    "link": "./Gamepage/game.html?game=halo-infinite"
+  }
+]

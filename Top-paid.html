@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>paid</title>
+      <link rel="shortcut icon" href="./Images/logo.png" type="image/x-icon">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="mobile.css" media="(max-width: 767px)" />
+  <link rel="stylesheet" href="desktop.css" media="(min-width: 768px)" />
+  <!-- Google fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+    rel="stylesheet">
+  <style>
+    body {
+      font-family: "Nunito", sans-serif !important;
+    }
+
+    /* card hover */
+    .card-inner {
+      border-radius: 12px;
+      background: rgba(0, 0, 0, 0.25);
+      backdrop-filter: blur(10px) !important;
+      -webkit-backdrop-filter: blur(10px);
+      height: 100%;
+      box-shadow: 1px 1px 5px black;
+      position: relative;
+      transition: transform 200ms linear, box-shadow 200ms linear, background-color 200ms linear;
+      position: relative;
+    }
+
+    .card-inner .rating {
+      display: none !important;
+      z-index: 2;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .card-inner:hover {
+      transform: scale(1.04);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      background: rgba(255, 255, 255, 0.12);
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.45) !important;
+    }
+
+    .rating {
+      display: none;
+      z-index: 2;
+    }
+
+    .card-inner:hover .rating {
+      display: flex !important;
+    }
+
+    .card-image {
+      border-radius: 10px;
+      aspect-ratio: 10/12;
+      object-fit: cover;
+      object-position: top;
+    }
+
+    .card-inner img {
+      transition: .3s;
+    }
+
+    .card-inner:hover img {
+      filter: brightness(60%);
+    }
+  </style>
+</head>
+
+<body style="background-image: url(./Images/background.png);">
+  <video autoplay muted loop id="video-background">
+    <source src="./Images/purple-sunset..mp4" type="video/mp4" />
+  </video>
+  <video autoplay muted loop id="video-background-mobile">
+    <source src="./Images/skysparxx.mp4" type="video/mp4">
+  </video>
+  <div id="loader"
+    style="position: fixed; inset: 0; background: #000 url('https://i.pinimg.com/originals/00/cd/13/00cd131f306544a54106a8f3dc4a95a2.gif') center/240px no-repeat; z-index: 9999;">
+  </div>
+
+  <!-- NAV BAR -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="myNavbar">
+    <div class="container-fluid">
+      <a class="navbar-brand" id="navbar-brand" href="./index.html">
+        <img src="./Images/logo.png" alt="" width="30px">
+        <div class="brand-text">Rath</div>
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
+        aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0 text-center">
+          <li class="nav-item nav-items"><a class="nav-link" href="./index.html">Home</a></li>
+          <li class="nav-item nav-items"><a class="nav-link" href="./Trending.html">Trending</a></li>
+          <li class="nav-item nav-items"><a class="nav-link active" href="./Top-paid.html">Top Paid</a></li>
+          <li class="nav-item nav-items"><a class="nav-link" href="./Top-free.html">Top Free</a></li>
+          <li class="nav-item nav-items"><a class="nav-link" href="./Login.html">Login</a></li>
+          <li class="nav-item nav-items"><a class="nav-link" href="./Sign-up.html">Register</a></li>
+
+          <!-- MODIFIED DROPDOWN START -->
+          <li class="nav-item dropdown nav-items">
+            <a class="nav-link dropdown-toggle pointer" href="#" id="aboutDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              About
+            </a>
+            <!-- Layout Logic: Bootstrap 5 Grid System -->
+            <div class="dropdown-menu p-3 border-0 glass-dropdown" aria-labelledby="aboutDropdown"
+              style="width: 380px; margin-top: 15px;">
+              <div class="row g-2">
+
+                <div class="col-6">
+                  <a href="./About.html" class="glass-item">
+                    <i class="fa-solid fa-users main-icon about-icon"></i>
+                    <div class="title">About Us</div>
+                    <div class="subtitle">Rath's made</div>
+                  </a>
+                </div>
+
+                <div class="col-6">
+                  <a href="./Privacy.html" class="glass-item">
+                    <i class="fa-solid fa-shield-halved main-icon privacy-icon"></i>
+                    <div class="title">Privacy</div>
+                    <div class="subtitle">Privacy Notice</div>
+                  </a>
+                </div>
+
+                <div class="col-12">
+                  <a href="./Contact.html" class="glass-item contact-item">
+                    <div class="d-flex align-items-center">
+                      <i class="fa-solid fa-address-book contact-icon-main"></i>
+                      <div class="text-start">
+                        <div class="title mb-0">Contact</div>
+                        <div class="subtitle">Get in touch</div>
+                      </div>
+                    </div>
+
+                    <div class="social-icons">
+                      <i class="fa-brands fa-instagram"></i>
+                      <i class="fa-brands fa-whatsapp"></i>
+                      <i class="fa-brands fa-linkedin"></i>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+      </div>
+      </li>
+      <!-- MODIFIED DROPDOWN END -->
+      </ul>
+
+      <form class="d-flex align-items-center ms-auto" role="search" id="nav-search-form">
+        <input id="Nav-Search" class="form-control rounded-pill" style="background-color: rgba(109,109,109,0.25); backdrop-filter: blur(10px);
+                           color:white; display:none; width:0; transition:all .4s;" type="search" placeholder="Search"
+          aria-label="Search">
+
+        <button id="Nav-Search-icon" class="btn" type="button">
+          <i class="fa-solid fa-magnifying-glass" style="filter: invert();"></i>
+        </button>
+
+        <div class="dropdown">
+          <button id="Nav-Search-icon" class="btn" id="wishlistBtn" type="button" data-bs-toggle="dropdown">
+            <i class="fa-regular fa-heart" style="filter: invert();"></i>
+          </button>
+
+          <ul class="dropdown-menu dropdown-menu-end p-2" id="wishlist-menu" style="min-width:220px;">
+            <li class="text-center text-muted" id="empty-wishlist">No items yet ❤️</li>
+          </ul>
+        </div>
+      </form>
+    </div>
+    </div>
+  </nav>
+
+  <!-- content -->
+  <div class="container-fluid">
+    <div id="games" class="row"></div>
+  </div>
+
+  <script>
+    const gamesContainer = document.getElementById('games');
+    fetch('Top-paid.json')
+      .then(res => res.json())
+      .then(games => {
+        games.forEach(game => {
+          const card = `
+            <div class="item col-6 col-sm-4 col-md-3 col-lg-2 p-2">
+              <a href="${game.link}" style="display:block;height:100%;text-decoration:none;">
+                <div class="card-inner m-0 p-2 d-flex flex-column justify-content-between">
+                  <div class="d-flex justify-content-end rating" style="position:absolute; top:12px; right:14px; color:white; font-size:small; align-items:center;">
+                    <i class="fa-solid fa-star"></i>&nbsp; ${game.rating}
+                  </div>
+                  <img src="${game.img}" alt="${game.title} image" class="card-image w-100" />
+                  <div class="text-white h5 pt-2" style="text-align:center; font-size:1rem; text-shadow:1px 1px black;">
+                    ${game.title}
+                  </div>
+                </div>
+              </a>
+            </div>`;
+          gamesContainer.innerHTML += card;
+        });
+        animateItems();
+      })
+      .catch(err => console.error('Error loading JSON:', err));
+  </script>
+  <script src="./script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+<!-- FOOTER SECTION -->
+<footer class="pt-5 mt-5 glass-footer">
+  <div class="container">
+    <!-- 3 Columns Layout -->
+    <div class="row justify-content-center">
+      <div class="col-lg-1 d-none d-lg-block"></div>
+
+      <!-- 1. Quick Links -->
+      <!-- Added text-center (mobile) and text-md-start (tablet+) -->
+      <div class="col-lg-3 col-md-6 p-2 text-md-start">
+        <h5 class="footer-heading">Quick Links</h5>
+        <ul class="footer-list ms-5 ms-md-1">
+          <li><a href="./index.html" class="footer-link-item"><i class="fa-solid fa-house"></i> Home</a></li>
+          <li><a href="./Trending.html" class="footer-link-item"><i class="fa-solid fa-fire"></i> Trending</a></li>
+          <li><a href="./Top-paid.html" class="footer-link-item"><i class="fa-solid fa-crown"></i> Top Paid</a></li>
+          <li><a href="./Top-free.html" class="footer-link-item"><i class="fa-solid fa-gift"></i> Top Free</a></li>
+        </ul>
+      </div>
+
+      <!-- 2. Company -->
+      <!-- Added text-center (mobile) and text-md-start (tablet+) -->
+      <div class="col-lg-3 col-md-6 p-2 text-md-start">
+        <h5 class="footer-heading">Company</h5>
+        <ul class="footer-list ms-5 ms-md-1">
+          <li><a href="./About.html" class="footer-link-item"><i class="fa-solid fa-circle-info"></i> About Us</a></li>
+          <li><a href="./Contact.html" class="footer-link-item"><i class="fa-solid fa-envelope"></i> Contact</a></li>
+          <li><a href="./Privacy.html" class="footer-link-item"><i class="fa-solid fa-user-shield"></i> Privacy
+              Policy</a></li>
+          <li><a href="./Terms.html" class="footer-link-item"><i class="fa-solid fa-file-contract"></i> Terms of
+              Service</a></li>
+        </ul>
+      </div>
+
+      <!-- 3. Brand & Socials -->
+      <!-- Added text-center (mobile) and text-lg-start (desktop+) -->
+      <div class="col-lg-4 col-md-12 p-2 text-center text-lg-start">
+        <!-- Added d-flex utilities to center the logo content on mobile -->
+        <a class="footer-brand p-0 m-0 d-flex justify-content-center justify-content-lg-start align-items-center"
+          id="footer-logo" href="./index.html">
+          <img src="./Images/logo.png" class="me-2" alt="" width="30px">
+          <div class="brand-text">Rath</div>
+        </a>
+        <p class="mt-3 p-2">Your destination for trending apps and games. Explore our top paid and free collections.</p>
+        <div class="mt-3 p-2">
+          <a href="#" class="social-icon-item"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" class="social-icon-item"><i class="fa-brands fa-whatsapp"></i></a>
+          <a href="#" class="social-icon-item"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+      </div>
+      <div class="col-lg-1 d-none d-lg-block"></div>
+    </div>
+  </div>
+
+  <!-- Copyright -->
+  <div class="text-center copyright-bar">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <p class="mb-0">&copy; 2025 Rath. All rights reserved. </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</html>
